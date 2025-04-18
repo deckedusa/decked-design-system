@@ -417,7 +417,7 @@
    */
 
   /* Buttons */
-  --sl-button-font-size-small: var(--sl-font-size-x-small);
+  --sl-button-font-size-small: var(--sl-font-size-2x-small);
   --sl-button-font-size-medium: var(--sl-font-size-small);
   --sl-button-font-size-large: var(--sl-font-size-medium);
 

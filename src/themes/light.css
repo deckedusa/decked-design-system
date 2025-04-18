@@ -393,7 +393,8 @@
   --dds-color-text-muted: var(--dds-gray);
 
   /* Font sizes */
-  --sl-font-size-x-small: var(--text-sm, 0.6875rem); /* 11px */
+  --sl-font-size-2x-small: var(--text-sm, 0.625rem); /* 10px */
+  --sl-font-size-x-small: var(--text-sm, 0.75rem); /* 12px */
   --sl-font-size-small: var(--text-base, 0.875rem); /* 14px */
   --sl-font-size-medium: var(--text-lg, 1rem); /* 16px */
   --sl-font-size-large: var(--text-xl, 1.125rem); /* 18px */
@@ -412,8 +413,8 @@
   --sl-letter-spacing-denser: -0.03em;
   --sl-letter-spacing-dense: -0.015em;
   --sl-letter-spacing-normal: normal;
-  --sl-letter-spacing-loose: 0.075em;
-  --sl-letter-spacing-looser: 0.15em;
+  --sl-letter-spacing-loose: 0.025em;
+  --sl-letter-spacing-looser: 0.05em;
 
   /* Line heights */
   --sl-line-height-denser: 1;
@@ -434,7 +435,7 @@
    */
 
   /* Buttons */
-  --sl-button-font-size-small: var(--sl-font-size-x-small);
+  --sl-button-font-size-small: var(--sl-font-size-2x-small);
   --sl-button-font-size-medium: var(--sl-font-size-small);
   --sl-button-font-size-large: var(--sl-font-size-medium);
 

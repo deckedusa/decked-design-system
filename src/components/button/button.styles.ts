@@ -10,6 +10,7 @@ export default css`
 
   .button {
     text-transform: uppercase;
+    letter-spacing: var(--sl-letter-spacing-looser);
     display: inline-flex;
     align-items: stretch;
     justify-content: center;
@@ -124,117 +125,27 @@ export default css`
 
   /* Default */
   .button--outline.button--default {
-    border-color: var(--sl-input-border-color);
-    color: var(--sl-color-neutral-700);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-foreground);
   }
 
   .button--outline.button--default:hover:not(.button--disabled),
   .button--outline.button--default.button--checked:not(.button--disabled) {
-    border-color: var(--sl-color-primary-600);
-    background-color: var(--sl-color-primary-600);
-    color: var(--sl-color-neutral-0);
+    border-color: var(--dds-color-primary);
+    background-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   .button--outline.button--default:active:not(.button--disabled) {
-    border-color: var(--sl-color-primary-700);
-    background-color: var(--sl-color-primary-700);
-    color: var(--sl-color-neutral-0);
+    border-color: var(--dds-color-primary);
+    background-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   /* Primary */
   .button--outline.button--primary {
-    border-color: var(--sl-color-primary-600);
-    color: var(--sl-color-primary-600);
-  }
-
-  .button--outline.button--primary:hover:not(.button--disabled),
-  .button--outline.button--primary.button--checked:not(.button--disabled) {
-    background-color: var(--sl-color-primary-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--outline.button--primary:active:not(.button--disabled) {
-    border-color: var(--sl-color-primary-700);
-    background-color: var(--sl-color-primary-700);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Success */
-  .button--outline.button--success {
-    border-color: var(--sl-color-success-600);
-    color: var(--sl-color-success-600);
-  }
-
-  .button--outline.button--success:hover:not(.button--disabled),
-  .button--outline.button--success.button--checked:not(.button--disabled) {
-    background-color: var(--sl-color-success-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--outline.button--success:active:not(.button--disabled) {
-    border-color: var(--sl-color-success-700);
-    background-color: var(--sl-color-success-700);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Neutral */
-  .button--outline.button--neutral {
-    border-color: var(--sl-color-neutral-600);
-    color: var(--sl-color-neutral-600);
-  }
-
-  .button--outline.button--neutral:hover:not(.button--disabled),
-  .button--outline.button--neutral.button--checked:not(.button--disabled) {
-    background-color: var(--sl-color-neutral-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--outline.button--neutral:active:not(.button--disabled) {
-    border-color: var(--sl-color-neutral-700);
-    background-color: var(--sl-color-neutral-700);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Warning */
-  .button--outline.button--warning {
-    border-color: var(--sl-color-warning-600);
-    color: var(--sl-color-warning-600);
-  }
-
-  .button--outline.button--warning:hover:not(.button--disabled),
-  .button--outline.button--warning.button--checked:not(.button--disabled) {
-    background-color: var(--sl-color-warning-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--outline.button--warning:active:not(.button--disabled) {
-    border-color: var(--sl-color-warning-700);
-    background-color: var(--sl-color-warning-700);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Danger */
-  .button--outline.button--danger {
-    border-color: var(--sl-color-danger-600);
-    color: var(--sl-color-danger-600);
-  }
-
-  .button--outline.button--danger:hover:not(.button--disabled),
-  .button--outline.button--danger.button--checked:not(.button--disabled) {
-    background-color: var(--sl-color-danger-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--outline.button--danger:active:not(.button--disabled) {
-    border-color: var(--sl-color-danger-700);
-    background-color: var(--sl-color-danger-700);
-    color: var(--sl-color-neutral-0);
-  }
-
-  @media (forced-colors: active) {
-    .button.button--outline.button--checked:not(.button--disabled) {
-      outline: solid 2px transparent;
-    }
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary);
   }
 
   /*
@@ -244,25 +155,25 @@ export default css`
   .button--text {
     background-color: transparent;
     border-color: transparent;
-    color: var(--sl-color-primary-600);
+    color: var(--dds-color-foreground);
   }
 
   .button--text:hover:not(.button--disabled) {
-    background-color: transparent;
-    border-color: transparent;
-    color: var(--sl-color-primary-500);
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   .button--text:focus-visible:not(.button--disabled) {
-    background-color: transparent;
-    border-color: transparent;
-    color: var(--sl-color-primary-500);
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   .button--text:active:not(.button--disabled) {
-    background-color: transparent;
-    border-color: transparent;
-    color: var(--sl-color-primary-700);
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   /*

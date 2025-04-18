@@ -30,11 +30,11 @@ Focus ring tokens control the appearance of focus rings. Note that form inputs u
 
 Button tokens control the appearance of buttons. In addition, buttons also currently use some form input tokens such as `--sl-input-height-*` and `--sl-input-border-*`. More button tokens may be added in the future to make it easier to style them more independently.
 
-| Token                          | Value                         |
-| ------------------------------ | ----------------------------- |
-| `--sl-button-font-size-small`  | `var(--sl-font-size-x-small)` |
-| `--sl-button-font-size-medium` | `var(--sl-font-size-small)`   |
-| `--sl-button-font-size-large`  | `var(--sl-font-size-medium)`  |
+| Token                          | Value                          |
+| ------------------------------ | ------------------------------ |
+| `--sl-button-font-size-small`  | `var(--sl-font-size-2x-small)` |
+| `--sl-button-font-size-medium` | `var(--sl-font-size-small)`    |
+| `--sl-button-font-size-large`  | `var(--sl-font-size-medium)`   |
 
 ## Form Inputs
 

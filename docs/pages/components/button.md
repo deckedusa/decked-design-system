@@ -76,9 +76,6 @@ const App = () => (
     <SlButton variant="default" outline>
       Default
     </SlButton>
-    <SlButton variant="primary" outline>
-      Primary
-    </SlButton>
   </>
 );
 ```
@@ -125,6 +122,18 @@ Use the `circle` attribute to create circular icon buttons. When this attribute 
 </sl-button>
 
 <sl-button variant="default" size="large" circle>
+  <sl-icon name="gear" label="Settings"></sl-icon>
+</sl-button>
+
+<sl-button variant="default" size="small" outline circle>
+  <sl-icon name="gear" label="Settings"></sl-icon>
+</sl-button>
+
+<sl-button variant="default" size="medium" outline circle>
+  <sl-icon name="gear" label="Settings"></sl-icon>
+</sl-button>
+
+<sl-button variant="default" size="large" outline circle>
   <sl-icon name="gear" label="Settings"></sl-icon>
 </sl-button>
 ```
