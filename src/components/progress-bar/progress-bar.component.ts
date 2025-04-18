@@ -12,7 +12,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Progress bars are used to show the status of an ongoing operation.
  * @documentation https://shoelace.style/components/progress-bar
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot - A label to show inside the progress indicator.

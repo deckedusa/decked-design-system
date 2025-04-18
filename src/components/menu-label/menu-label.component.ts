@@ -7,7 +7,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Menu labels are used to describe a group of menu items.
  * @documentation https://shoelace.style/components/menu-label
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot - The menu label's content.

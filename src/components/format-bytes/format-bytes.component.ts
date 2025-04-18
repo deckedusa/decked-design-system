@@ -5,7 +5,7 @@ import ShoelaceElement from '../../internal/shoelace-element.js';
 /**
  * @summary Formats a number as a human readable bytes value.
  * @documentation https://shoelace.style/components/format-bytes
- * @status stable
+ * @status unstyled
  * @since 2.0
  */
 export default class SlFormatBytes extends ShoelaceElement {

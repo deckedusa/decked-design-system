@@ -8,7 +8,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Button groups can be used to group related buttons into sections.
  * @documentation https://shoelace.style/components/button-group
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot - One or more `<sl-button>` elements to display in the button group.

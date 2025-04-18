@@ -21,7 +21,7 @@ const availableUnits: UnitConfig[] = [
 /**
  * @summary Outputs a localized time phrase relative to the current date and time.
  * @documentation https://shoelace.style/components/relative-time
- * @status stable
+ * @status unstyled
  * @since 2.0
  */
 export default class SlRelativeTime extends ShoelaceElement {

@@ -5,7 +5,7 @@ import ShoelaceElement from '../../internal/shoelace-element.js';
 /**
  * @summary Formats a number using the specified locale and options.
  * @documentation https://shoelace.style/components/format-number
- * @status stable
+ * @status unstyled
  * @since 2.0
  */
 export default class SlFormatNumber extends ShoelaceElement {

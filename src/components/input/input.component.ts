@@ -19,7 +19,7 @@ import type { ShoelaceFormControl } from '../../internal/shoelace-element.js';
 /**
  * @summary Inputs collect data from the user.
  * @documentation https://shoelace.style/components/input
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

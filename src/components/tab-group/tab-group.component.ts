@@ -17,7 +17,7 @@ import type SlTabPanel from '../tab-panel/tab-panel.js';
 /**
  * @summary Tab groups organize content into a container that shows one section at a time.
  * @documentation https://shoelace.style/components/tab-group
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon-button

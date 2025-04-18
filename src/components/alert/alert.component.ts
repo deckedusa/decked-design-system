@@ -17,7 +17,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Alerts are used to display important messages inline or as toast notifications.
  * @documentation https://shoelace.style/components/alert
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon-button

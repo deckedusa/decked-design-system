@@ -18,7 +18,7 @@ import type { ShoelaceFormControl } from '../../internal/shoelace-element.js';
 /**
  * @summary Ranges allow the user to select a single value within a given range using a slider.
  * @documentation https://shoelace.style/components/range
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot label - The range's label. Alternatively, you can use the `label` attribute.

@@ -15,7 +15,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Details show a brief summary and expand to show additional content.
  * @documentation https://shoelace.style/components/details
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

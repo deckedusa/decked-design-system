@@ -11,7 +11,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Icons buttons are simple, icon-only buttons that can be used for actions and in toolbars.
  * @documentation https://shoelace.style/components/icon-button
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

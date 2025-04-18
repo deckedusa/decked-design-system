@@ -32,7 +32,7 @@ export const SNAP_NONE = () => null;
 /**
  * @summary Split panels display two adjacent panels, allowing the user to reposition them.
  * @documentation https://shoelace.style/components/split-panel
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @event sl-reposition - Emitted when the divider's position changes.

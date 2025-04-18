@@ -25,7 +25,7 @@ import type SlOption from '../option/option.component.js';
 /**
  * @summary Selects allow you to choose items from a menu of predefined options.
  * @documentation https://shoelace.style/components/select
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

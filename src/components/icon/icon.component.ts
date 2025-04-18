@@ -23,7 +23,7 @@ interface IconSource {
 /**
  * @summary Icons are symbols that can be used to represent various options within an application.
  * @documentation https://shoelace.style/components/icon
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @event sl-load - Emitted when the icon has loaded. When using `spriteSheet: true` this will not emit.

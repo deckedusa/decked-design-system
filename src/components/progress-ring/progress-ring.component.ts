@@ -9,7 +9,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Progress rings are used to show the progress of a determinate operation in a circular fashion.
  * @documentation https://shoelace.style/components/progress-ring
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot - A label to show inside the ring.

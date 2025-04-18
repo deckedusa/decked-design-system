@@ -9,6 +9,8 @@
     {% set badgeVariant = 'primary' %}
   {% elseif component.status == 'experimental' %}
     {% set badgeVariant = 'warning' %}
+  {% elseif component.status == 'unstyled' %}
+    {% set badgeVariant = 'warning' %}
   {% elseif component.status == 'planned' %}
     {% set badgeVariant = 'neutral' %}
   {% elseif component.status == 'deprecated' %}

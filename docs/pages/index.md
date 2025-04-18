@@ -39,6 +39,14 @@ toc: false
 
 </div> -->
 
+## DECKED Design System
+
+Welcome to the DECKED Design System. This is a customized set of components and guidelines to use on DECKED websites to maintain brand consistancy and high quality user experience across all of our platforms. This is a fork of the [Shoelace.](https://shoelace.style/)
+
+:::tip
+This is still a work in progress, we are in the process of restyling the defatul Shoelace components for DECKED use. If you see any issues, or need a component styled please email [rgallagher@decked.com.](mailto:rgallagher@decked.com)
+:::
+
 ## Quick Start
 
 Add the following code to your page.
@@ -49,7 +57,7 @@ Add the following code to your page.
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@%VERSION%/%CDNDIR%/shoelace-autoloader.js"></script>
 ```
 
-Now you have access to all of Shoelace's components! Try adding a button:
+Now you have access to all of DECKED's components! Try adding a button:
 
 ```html:preview:expanded:no-codepen
 <sl-button>Click me</sl-button>

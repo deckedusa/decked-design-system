@@ -18,7 +18,7 @@ import type { ShoelaceFormControl } from '../../internal/shoelace-element.js';
 /**
  * @summary Checkboxes allow the user to toggle an option on or off.
  * @documentation https://shoelace.style/components/checkbox
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

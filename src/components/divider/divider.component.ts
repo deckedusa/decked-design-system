@@ -8,7 +8,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Dividers are used to visually separate or group elements.
  * @documentation https://shoelace.style/components/divider
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @cssproperty --color - The color of the divider.

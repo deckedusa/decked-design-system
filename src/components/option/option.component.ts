@@ -12,7 +12,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Options define the selectable items within various form controls such as [select](/components/select).
  * @documentation https://shoelace.style/components/option
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

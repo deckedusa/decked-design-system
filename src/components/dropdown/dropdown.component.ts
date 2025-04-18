@@ -22,7 +22,7 @@ import type SlMenu from '../menu/menu.js';
 /**
  * @summary Dropdowns expose additional content that "drops down" in a panel.
  * @documentation https://shoelace.style/components/dropdown
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-popup

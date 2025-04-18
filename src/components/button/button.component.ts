@@ -17,7 +17,7 @@ import type { ShoelaceFormControl } from '../../internal/shoelace-element.js';
 /**
  * @summary Buttons represent actions that are available to the user.
  * @documentation https://shoelace.style/components/button
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon

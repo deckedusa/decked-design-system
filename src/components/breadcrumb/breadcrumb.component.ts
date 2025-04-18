@@ -11,7 +11,7 @@ import type SlBreadcrumbItem from '../breadcrumb-item/breadcrumb-item.js';
 /**
  * @summary Breadcrumbs provide a group of links so users can easily navigate a website's hierarchy.
  * @documentation https://shoelace.style/components/breadcrumb
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot - One or more breadcrumb items to display.

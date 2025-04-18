@@ -12,7 +12,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Breadcrumb Items are used inside [breadcrumbs](/components/breadcrumb) to represent different links.
  * @documentation https://shoelace.style/components/breadcrumb-item
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @slot - The breadcrumb item's label.

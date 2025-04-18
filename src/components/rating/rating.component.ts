@@ -15,7 +15,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Ratings give users a way to quickly view and provide feedback.
  * @documentation https://shoelace.style/components/rating
- * @status stable
+ * @status unstyled
  * @since 2.0
  *
  * @dependency sl-icon
