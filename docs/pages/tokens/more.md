@@ -22,9 +22,9 @@ Focus ring tokens control the appearance of focus rings. Note that form inputs u
 | ------------------------ | ----------------------------------------------------------------------------------------- |
 | `--sl-focus-ring-color`  | `var(--sl-color-primary-600)` (light theme)<br>`var(--sl-color-primary-700)` (dark theme) |
 | `--sl-focus-ring-style`  | `solid`                                                                                   |
-| `--sl-focus-ring-width`  | `3px`                                                                                     |
+| `--sl-focus-ring-width`  | `2px`                                                                                     |
 | `--sl-focus-ring`        | `var(--sl-focus-ring-style) var(--sl-focus-ring-width) var(--sl-focus-ring-color)`        |
-| `--sl-focus-ring-offset` | `1px`                                                                                     |
+| `--sl-focus-ring-offset` | `2px`                                                                                     |
 
 ## Buttons
 

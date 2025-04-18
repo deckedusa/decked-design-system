@@ -26,10 +26,10 @@ export default css`
     vertical-align: middle;
     padding: 0;
     transition:
-      var(--sl-transition-x-fast) background-color,
-      var(--sl-transition-x-fast) color,
-      var(--sl-transition-x-fast) border,
-      var(--sl-transition-x-fast) box-shadow;
+      var(--sl-transition-fast) background-color,
+      var(--sl-transition-fast) color,
+      var(--sl-transition-fast) border,
+      var(--sl-transition-fast) box-shadow;
     cursor: inherit;
   }
 
@@ -76,20 +76,20 @@ export default css`
    * Standard buttons
    */
 
-  /* Default */
-  .button--standard.button--default {
-    background-color: var(--dds-color-foreground);
+  /* Standard */
+  .button--standard {
+    background-color: var(--dds-color-background);
     border-color: var(--dds-color-foreground);
-    color: var(--dds-color-inverse);
+    color: var(--dds-color-foreground);
   }
 
-  .button--standard.button--default:hover:not(.button--disabled) {
+  .button--standard:hover:not(.button--disabled) {
     background-color: var(--dds-color-primary);
     border-color: var(--dds-color-primary);
     color: var(--dds-color-primary-inverse);
   }
 
-  .button--standard.button--default:active:not(.button--disabled) {
+  .button--standard:active:not(.button--disabled) {
     background-color: var(--dds-color-primary);
     border-color: var(--dds-color-primary);
     color: var(--dds-color-primary-inverse);
@@ -97,18 +97,56 @@ export default css`
 
   /* Primary */
   .button--standard.button--primary {
-    background-color: var(--dds-color-primary);
-    border-color: var(--dds-color-primary);
-    color: var(--dds-color-primary-inverse);
-  }
-
-  .button--standard.button--primary:hover:not(.button--disabled) {
     background-color: var(--dds-color-foreground);
     border-color: var(--dds-color-foreground);
     color: var(--dds-color-inverse);
   }
 
+  .button--standard.button--primary:hover:not(.button--disabled) {
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
+  }
+
   .button--standard.button--primary:active:not(.button--disabled) {
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
+  }
+
+  /* Secondary */
+  .button--standard.button--secondary {
+    background-color: var(--dds-fender-dirt);
+    border-color: var(--dds-fender-dirt);
+    color: var(--dds-color-inverse);
+  }
+
+  .button--standard.button--secondary:hover:not(.button--disabled) {
+    background-color: var(--dds-color-foreground);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-inverse);
+  }
+
+  .button--standard.button--secondary:active:not(.button--disabled) {
+    background-color: var(--dds-color-foreground);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-inverse);
+  }
+
+  /* Highlight */
+  .button--standard.button--highlight {
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
+  }
+
+  .button--standard.button--highlight:hover:not(.button--disabled) {
+    background-color: var(--dds-color-foreground);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-inverse);
+  }
+
+  .button--standard.button--highlight:active:not(.button--disabled) {
     background-color: var(--dds-color-foreground);
     border-color: var(--dds-color-foreground);
     color: var(--dds-color-inverse);

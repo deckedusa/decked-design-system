@@ -387,6 +387,8 @@
   --sl-font-header: decked-web, sans-serif;
   --sl-font-sans: decked-web, sans-serif;
 
+  --sl-text-transform-header: uppercase;
+
   --dds-color-foreground: var(--dds-black);
   --dds-color-inverse: var(--dds-white);
   --dds-color-background: var(--dds-white);
@@ -426,9 +428,9 @@
   /* Focus rings */
   --sl-focus-ring-color: var(--dds-horizon-blue);
   --sl-focus-ring-style: solid;
-  --sl-focus-ring-width: 3px;
+  --sl-focus-ring-width: 2px;
   --sl-focus-ring: var(--sl-focus-ring-style) var(--sl-focus-ring-width) var(--sl-focus-ring-color);
-  --sl-focus-ring-offset: 1px;
+  --sl-focus-ring-offset: 2px;
 
   /*
    * Forms
@@ -530,7 +532,7 @@
 
   --sl-tooltip-border-radius: var(--sl-border-radius-medium);
   --sl-tooltip-background-color: var(--dds-black);
-  --sl-tooltip-color: var(--dds-black);
+  --sl-tooltip-color: var(--dds-white);
   --sl-tooltip-font-family: var(--sl-font-sans);
   --sl-tooltip-font-weight: var(--sl-font-weight-normal);
   --sl-tooltip-font-size: var(--sl-font-size-small);

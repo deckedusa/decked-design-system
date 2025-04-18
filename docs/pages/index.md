@@ -5,6 +5,7 @@ meta:
 toc: false
 ---
 
+<!--
 <div class="splash">
 <div class="splash-start">
 <img class="splash-logo" src="/assets/images/wordmark.svg" alt="Shoelace">
@@ -36,7 +37,7 @@ toc: false
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-00acee.svg?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/shoelace_style)
 [![Sponsor](https://img.shields.io/badge/GitHub-Code-232323.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/shoelace-style/shoelace)
 
-</div>
+</div> -->
 
 ## Quick Start
 

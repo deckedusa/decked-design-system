@@ -26,19 +26,19 @@ const icons = {
     </svg>
   `,
   'chevron-down': `
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-    </svg>
+      <svg role="presentation" focusable="false" width="16" height="16" class="d-icons d-icons-chevron-down" viewBox="0 0 10 7">
+        <path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
   `,
   'chevron-left': `
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-    </svg>
+      <svg role="presentation" focusable="false" width="16" height="16" class="d-icons d-icons-chevron-left" viewBox="0 0 7 10">
+        <path d="M6 1 2 5l4 4" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
   `,
   'chevron-right': `
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-    </svg>
+      <svg role="presentation" focusable="false" width="16" height="16" class="d-icons d-icons-chevron-right" viewBox="0 0 7 10">
+        <path d="m1 9 4-4-4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
   `,
   copy: `
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
@@ -109,9 +109,9 @@ const icons = {
     </svg>
   `,
   'x-lg': `
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
-    </svg>
+      <svg role="presentation" stroke-width="2" focusable="false" width="16" height="16" class="d-icons d-icons-x" viewBox="0 0 24 24">
+        <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
+      </svg>
   `,
   'x-circle-fill': `
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">

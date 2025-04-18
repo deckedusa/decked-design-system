@@ -23,9 +23,8 @@ Set the `variant` attribute to change the badge's variant.
 
 ```html:preview
 <sl-badge variant="primary">Primary</sl-badge>
-<sl-badge variant="success">Success</sl-badge>
+<sl-badge variant="secondary">Secondary</sl-badge>
 <sl-badge variant="neutral">Neutral</sl-badge>
-<sl-badge variant="warning">Warning</sl-badge>
 <sl-badge variant="danger">Danger</sl-badge>
 ```
 
@@ -35,9 +34,8 @@ import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
 const App = () => (
   <>
     <SlBadge variant="primary">Primary</SlBadge>
-    <SlBadge variant="success">Success</SlBadge>
+    <SlBadge variant="secondary">Secondary</SlBadge>
     <SlBadge variant="neutral">Neutral</SlBadge>
-    <SlBadge variant="warning">Warning</SlBadge>
     <SlBadge variant="danger">Danger</SlBadge>
   </>
 );
@@ -49,9 +47,8 @@ Use the `pill` attribute to give badges rounded edges.
 
 ```html:preview
 <sl-badge variant="primary" pill>Primary</sl-badge>
-<sl-badge variant="success" pill>Success</sl-badge>
+<sl-badge variant="secondary" pill>Secondary</sl-badge>
 <sl-badge variant="neutral" pill>Neutral</sl-badge>
-<sl-badge variant="warning" pill>Warning</sl-badge>
 <sl-badge variant="danger" pill>Danger</sl-badge>
 ```
 
@@ -63,14 +60,11 @@ const App = () => (
     <SlBadge variant="primary" pill>
       Primary
     </SlBadge>
-    <SlBadge variant="success" pill>
-      Success
+    <SlBadge variant="secondary" pill>
+      Secondary
     </SlBadge>
     <SlBadge variant="neutral" pill>
       Neutral
-    </SlBadge>
-    <SlBadge variant="warning" pill>
-      Warning
     </SlBadge>
     <SlBadge variant="danger" pill>
       Danger
@@ -86,9 +80,8 @@ Use the `pulse` attribute to draw attention to the badge with a subtle animation
 ```html:preview
 <div class="badge-pulse">
   <sl-badge variant="primary" pill pulse>1</sl-badge>
-  <sl-badge variant="success" pill pulse>1</sl-badge>
+  <sl-badge variant="secondary" pill pulse>1</sl-badge>
   <sl-badge variant="neutral" pill pulse>1</sl-badge>
-  <sl-badge variant="warning" pill pulse>1</sl-badge>
   <sl-badge variant="danger" pill pulse>1</sl-badge>
 </div>
 
@@ -114,13 +107,10 @@ const App = () => (
       <SlBadge variant="primary" pill pulse>
         1
       </SlBadge>
-      <SlBadge variant="success" pill pulse>
+      <SlBadge variant="secondary" pill pulse>
         1
       </SlBadge>
       <SlBadge variant="neutral" pill pulse>
-        1
-      </SlBadge>
-      <SlBadge variant="warning" pill pulse>
         1
       </SlBadge>
       <SlBadge variant="danger" pill pulse>
@@ -141,11 +131,6 @@ One of the most common use cases for badges is attaching them to buttons. To mak
 <sl-button>
   Requests
   <sl-badge pill>30</sl-badge>
-</sl-button>
-
-<sl-button style="margin-inline-start: 1rem;">
-  Warnings
-  <sl-badge variant="warning" pill>8</sl-badge>
 </sl-button>
 
 <sl-button style="margin-inline-start: 1rem;">

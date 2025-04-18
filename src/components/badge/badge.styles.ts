@@ -6,17 +6,18 @@ export default css`
   }
 
   .badge {
+    text-transform: uppercase;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: max(12px, 0.75em);
-    font-weight: var(--sl-font-weight-semibold);
-    letter-spacing: var(--sl-letter-spacing-normal);
+    font-weight: var(--sl-font-weight-bold);
+    letter-spacing: var(--sl-letter-spacing-losser);
     line-height: 1;
-    border-radius: var(--sl-border-radius-small);
+    border-radius: var(--sl-border-radius-medium);
     border: solid 1px var(--sl-color-neutral-0);
     white-space: nowrap;
-    padding: 0.35em 0.6em;
+    padding: var(--sl-spacing-x-small) var(--sl-spacing-small);
     user-select: none;
     -webkit-user-select: none;
     cursor: inherit;
@@ -24,28 +25,23 @@ export default css`
 
   /* Variant modifiers */
   .badge--primary {
-    background-color: var(--sl-color-primary-600);
-    color: var(--sl-color-neutral-0);
+    background-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
-  .badge--success {
-    background-color: var(--sl-color-success-600);
-    color: var(--sl-color-neutral-0);
+  .badge--secondary {
+    background-color: var(--dds-fender-dirt);
+    color: var(--dds-white);
   }
 
   .badge--neutral {
-    background-color: var(--sl-color-neutral-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .badge--warning {
-    background-color: var(--sl-color-warning-600);
-    color: var(--sl-color-neutral-0);
+    background-color: var(--dds-color-foreground);
+    color: var(--dds-color-background);
   }
 
   .badge--danger {
-    background-color: var(--sl-color-danger-600);
-    color: var(--sl-color-neutral-0);
+    background-color: var(--dds-red);
+    color: var(--dds-white);
   }
 
   /* Pill modifier */

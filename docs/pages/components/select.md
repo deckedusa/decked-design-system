@@ -7,12 +7,11 @@ layout: component
 
 ```html:preview
 <sl-select>
-  <sl-option value="option-1">Option 1</sl-option>
-  <sl-option value="option-2">Option 2</sl-option>
-  <sl-option value="option-3">Option 3</sl-option>
-  <sl-option value="option-4">Option 4</sl-option>
-  <sl-option value="option-5">Option 5</sl-option>
-  <sl-option value="option-6">Option 6</sl-option>
+  <sl-option value="ford">Ford</sl-option>
+  <sl-option value="chevy">Chevy</sl-option>
+  <sl-option value="ram">Ram</sl-option>
+  <sl-option value="toyota">Toyota</sl-option>
+  <sl-option value="nessan">Nessan</sl-option>
 </sl-select>
 ```
 
@@ -22,12 +21,11 @@ import SlSelect from '@shoelace-style/shoelace/dist/react/select';
 
 const App = () => (
   <SlSelect>
-    <SlOption value="option-1">Option 1</SlOption>
-    <SlOption value="option-2">Option 2</SlOption>
-    <SlOption value="option-3">Option 3</SlOption>
-    <SlOption value="option-4">Option 4</SlOption>
-    <SlOption value="option-5">Option 5</SlOption>
-    <SlOption value="option-6">Option 6</SlOption>
+    <SlOption value="ford">Ford</SlOption>
+    <SlOption value="chevy">Chevy</SlOption>
+    <SlOption value="ram">Ram</SlOption>
+    <SlOption value="toyota">Toyota</SlOption>
+    <SlOption value="nessan">Nessan</SlOption>
   </SlSelect>
 );
 ```

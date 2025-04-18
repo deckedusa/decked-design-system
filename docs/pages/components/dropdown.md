@@ -11,7 +11,7 @@ Dropdowns are designed to work well with [menus](/components/menu) to provide a 
 
 ```html:preview
 <sl-dropdown>
-  <sl-button slot="trigger" caret>Dropdown</sl-button>
+  <sl-button slot="trigger" outline caret>Dropdown</sl-button>
   <sl-menu>
     <sl-menu-item>Dropdown Item 1</sl-menu-item>
     <sl-menu-item>Dropdown Item 2</sl-menu-item>

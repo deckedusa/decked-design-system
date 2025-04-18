@@ -24,6 +24,8 @@ Use the `variant` attribute to set the button's variant.
 ```html:preview
 <sl-button variant="default">Default</sl-button>
 <sl-button variant="primary">Primary</sl-button>
+<sl-button variant="secondary">Secondary</sl-button>
+<sl-button variant="highlight">Highlight</sl-button>
 ```
 
 ```jsx:react
@@ -33,6 +35,8 @@ const App = () => (
   <>
     <SlButton variant="default">Default</SlButton>
     <SlButton variant="primary">Primary</SlButton>
+    <SlButton variant="secondary">Secondary</SlButton>
+    <SlButton variant="highlight">Highlight</SlButton>
   </>
 );
 ```
@@ -57,15 +61,6 @@ const App = () => (
     <SlButton size="large">Large</SlButton>
   </>
 );
-```
-
-### Outline Buttons
-
-Use the `outline` attribute to draw outlined buttons with transparent backgrounds.
-
-```html:preview
-<sl-button variant="default" outline>Default</sl-button>
-<sl-button variant="primary" outline>Primary</sl-button>
 ```
 
 ```jsx:react
