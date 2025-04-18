@@ -120,17 +120,6 @@ Use the `circle` attribute to create circular icon buttons. When this attribute 
   <sl-icon name="gear" label="Settings"></sl-icon>
 </sl-button>
 
-<sl-button variant="default" size="small" outline circle>
-  <sl-icon name="gear" label="Settings"></sl-icon>
-</sl-button>
-
-<sl-button variant="default" size="medium" outline circle>
-  <sl-icon name="gear" label="Settings"></sl-icon>
-</sl-button>
-
-<sl-button variant="default" size="large" outline circle>
-  <sl-icon name="gear" label="Settings"></sl-icon>
-</sl-button>
 ```
 
 ```jsx:react

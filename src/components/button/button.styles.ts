@@ -349,15 +349,15 @@ export default css`
    */
 
   .button--has-label.button--small .button__label {
-    padding: 0 var(--sl-spacing-small);
-  }
-
-  .button--has-label.button--medium .button__label {
     padding: 0 var(--sl-spacing-medium);
   }
 
+  .button--has-label.button--medium .button__label {
+    padding: 0 var(--sl-spacing-2x-large);
+  }
+
   .button--has-label.button--large .button__label {
-    padding: 0 var(--sl-spacing-large);
+    padding: 0 var(--sl-spacing-5x-large);
   }
 
   .button--has-prefix.button--small {

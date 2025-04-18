@@ -25,6 +25,7 @@ Set the `variant` attribute to change the badge's variant.
 <sl-badge variant="primary">Primary</sl-badge>
 <sl-badge variant="secondary">Secondary</sl-badge>
 <sl-badge variant="neutral">Neutral</sl-badge>
+<sl-badge variant="warning">Warning</sl-badge>
 <sl-badge variant="danger">Danger</sl-badge>
 ```
 
@@ -36,6 +37,7 @@ const App = () => (
     <SlBadge variant="primary">Primary</SlBadge>
     <SlBadge variant="secondary">Secondary</SlBadge>
     <SlBadge variant="neutral">Neutral</SlBadge>
+    <SlBadge variant="warning">Warning</SlBadge>
     <SlBadge variant="danger">Danger</SlBadge>
   </>
 );

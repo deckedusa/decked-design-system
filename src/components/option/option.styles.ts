@@ -16,7 +16,7 @@ export default css`
     display: flex;
     align-items: center;
     font-family: var(--sl-font-sans);
-    font-size: var(--sl-font-size-medium);
+    font-size: var(--sl-font-size-small);
     font-weight: var(--sl-font-weight-normal);
     line-height: var(--sl-line-height-normal);
     letter-spacing: var(--sl-letter-spacing-normal);

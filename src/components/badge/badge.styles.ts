@@ -39,6 +39,11 @@ export default css`
     color: var(--dds-color-background);
   }
 
+  .badge--warning {
+    background-color: var(--sl-color-warning-400);
+    color: var(--dds-white);
+  }
+
   .badge--danger {
     background-color: var(--dds-red);
     color: var(--dds-white);

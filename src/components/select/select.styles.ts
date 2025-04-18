@@ -35,6 +35,7 @@ export default css`
     position: relative;
     align-items: center;
     justify-content: start;
+    font-size: var(--sl-font-size-small);
     font-family: var(--sl-input-font-family);
     font-weight: var(--sl-input-font-weight);
     letter-spacing: var(--sl-input-letter-spacing);
@@ -220,7 +221,7 @@ export default css`
 
   .select--large .select__combobox {
     border-radius: var(--sl-input-border-radius-large);
-    font-size: var(--sl-input-font-size-large);
+    font-size: var(--sl-input-font-size-medium);
     min-height: var(--sl-input-height-large);
     padding-block: 0;
     padding-inline: var(--sl-input-spacing-large);
@@ -303,6 +304,7 @@ export default css`
     transition: var(--sl-transition-medium) rotate ease;
     rotate: 0;
     margin-inline-start: var(--sl-spacing-small);
+    font-size: var(--sl-font-size-x-small);
   }
 
   .select--open .select__expand-icon {
