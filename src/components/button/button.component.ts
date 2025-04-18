@@ -59,8 +59,7 @@ export default class SlButton extends ShoelaceElement implements ShoelaceFormCon
   @property() title = ''; // make reactive to pass through
 
   /** The button's theme variant. */
-  @property({ reflect: true }) variant: 'default' | 'primary' | 'success' | 'neutral' | 'warning' | 'danger' | 'text' =
-    'default';
+  @property({ reflect: true }) variant: 'default' | 'primary' | 'text' = 'default';
 
   /** The button's size. */
   @property({ reflect: true }) size: 'small' | 'medium' | 'large' = 'medium';
@@ -267,10 +266,6 @@ export default class SlButton extends ShoelaceElement implements ShoelaceFormCon
           button: true,
           'button--default': this.variant === 'default',
           'button--primary': this.variant === 'primary',
-          'button--success': this.variant === 'success',
-          'button--neutral': this.variant === 'neutral',
-          'button--warning': this.variant === 'warning',
-          'button--danger': this.variant === 'danger',
           'button--text': this.variant === 'text',
           'button--small': this.size === 'small',
           'button--medium': this.size === 'medium',

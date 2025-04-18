@@ -9,14 +9,15 @@ export default css`
   }
 
   .button {
+    text-transform: uppercase;
     display: inline-flex;
     align-items: stretch;
     justify-content: center;
     width: 100%;
     border-style: solid;
     border-width: var(--sl-input-border-width);
-    font-family: var(--sl-input-font-family);
-    font-weight: var(--sl-font-weight-semibold);
+    font-family: var(--sl-font-header);
+    font-weight: var(--sl-font-weight-bold);
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
@@ -76,115 +77,40 @@ export default css`
 
   /* Default */
   .button--standard.button--default {
-    background-color: var(--sl-color-neutral-0);
-    border-color: var(--sl-input-border-color);
-    color: var(--sl-color-neutral-700);
+    background-color: var(--dds-color-foreground);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-inverse);
   }
 
   .button--standard.button--default:hover:not(.button--disabled) {
-    background-color: var(--sl-color-primary-50);
-    border-color: var(--sl-color-primary-300);
-    color: var(--sl-color-primary-700);
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   .button--standard.button--default:active:not(.button--disabled) {
-    background-color: var(--sl-color-primary-100);
-    border-color: var(--sl-color-primary-400);
-    color: var(--sl-color-primary-700);
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   /* Primary */
   .button--standard.button--primary {
-    background-color: var(--sl-color-primary-600);
-    border-color: var(--sl-color-primary-600);
-    color: var(--sl-color-neutral-0);
+    background-color: var(--dds-color-primary);
+    border-color: var(--dds-color-primary);
+    color: var(--dds-color-primary-inverse);
   }
 
   .button--standard.button--primary:hover:not(.button--disabled) {
-    background-color: var(--sl-color-primary-500);
-    border-color: var(--sl-color-primary-500);
-    color: var(--sl-color-neutral-0);
+    background-color: var(--dds-color-foreground);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-inverse);
   }
 
   .button--standard.button--primary:active:not(.button--disabled) {
-    background-color: var(--sl-color-primary-600);
-    border-color: var(--sl-color-primary-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Success */
-  .button--standard.button--success {
-    background-color: var(--sl-color-success-600);
-    border-color: var(--sl-color-success-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--success:hover:not(.button--disabled) {
-    background-color: var(--sl-color-success-500);
-    border-color: var(--sl-color-success-500);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--success:active:not(.button--disabled) {
-    background-color: var(--sl-color-success-600);
-    border-color: var(--sl-color-success-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Neutral */
-  .button--standard.button--neutral {
-    background-color: var(--sl-color-neutral-600);
-    border-color: var(--sl-color-neutral-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--neutral:hover:not(.button--disabled) {
-    background-color: var(--sl-color-neutral-500);
-    border-color: var(--sl-color-neutral-500);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--neutral:active:not(.button--disabled) {
-    background-color: var(--sl-color-neutral-600);
-    border-color: var(--sl-color-neutral-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Warning */
-  .button--standard.button--warning {
-    background-color: var(--sl-color-warning-600);
-    border-color: var(--sl-color-warning-600);
-    color: var(--sl-color-neutral-0);
-  }
-  .button--standard.button--warning:hover:not(.button--disabled) {
-    background-color: var(--sl-color-warning-500);
-    border-color: var(--sl-color-warning-500);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--warning:active:not(.button--disabled) {
-    background-color: var(--sl-color-warning-600);
-    border-color: var(--sl-color-warning-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  /* Danger */
-  .button--standard.button--danger {
-    background-color: var(--sl-color-danger-600);
-    border-color: var(--sl-color-danger-600);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--danger:hover:not(.button--disabled) {
-    background-color: var(--sl-color-danger-500);
-    border-color: var(--sl-color-danger-500);
-    color: var(--sl-color-neutral-0);
-  }
-
-  .button--standard.button--danger:active:not(.button--disabled) {
-    background-color: var(--sl-color-danger-600);
-    border-color: var(--sl-color-danger-600);
-    color: var(--sl-color-neutral-0);
+    background-color: var(--dds-color-foreground);
+    border-color: var(--dds-color-foreground);
+    color: var(--dds-color-inverse);
   }
 
   /*

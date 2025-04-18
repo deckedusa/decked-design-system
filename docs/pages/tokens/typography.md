@@ -12,27 +12,25 @@ Typography tokens are used to maintain a consistent set of font styles throughou
 
 The default font stack is designed to be simple and highly available on as many devices as possible.
 
-| Token             | Value                                                                                                                                         | Example                                                                                              |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| `--sl-font-sans`  | -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' | <span style="font-family: var(--sl-font-sans)">The quick brown fox jumped over the lazy dog.</span>  |
-| `--sl-font-serif` | Georgia, 'Times New Roman', serif                                                                                                             | <span style="font-family: var(--sl-font-serif)">The quick brown fox jumped over the lazy dog.</span> |
-| `--sl-font-mono`  | SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;                                                                                | <span style="font-family: var(--sl-font-mono)">The quick brown fox jumped over the lazy dog.</span>  |
+| Token            | Value                                                                                                                                         | Example                                                                                             |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `--sl-font-sans` | -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' | <span style="font-family: var(--sl-font-sans)">The quick brown fox jumped over the lazy dog.</span> |
+| `--sl-font-mono` | SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;                                                                                | <span style="font-family: var(--sl-font-mono)">The quick brown fox jumped over the lazy dog.</span> |
 
 ## Font Size
 
 Font sizes use `rem` units so they scale with the base font size. The pixel values displayed are based on a 16px font size.
 
-| Token                     | Value           | Example                                                         |
-| ------------------------- | --------------- | --------------------------------------------------------------- |
-| `--sl-font-size-2x-small` | 0.625rem (10px) | <span style="font-size: var(--sl-font-size-2x-small)">Aa</span> |
-| `--sl-font-size-x-small`  | 0.75rem (12px)  | <span style="font-size: var(--sl-font-size-x-small)">Aa</span>  |
-| `--sl-font-size-small`    | 0.875rem (14px) | <span style="font-size: var(--sl-font-size-small)">Aa</span>    |
-| `--sl-font-size-medium`   | 1rem (16px)     | <span style="font-size: var(--sl-font-size-medium)">Aa</span>   |
-| `--sl-font-size-large`    | 1.25rem (20px)  | <span style="font-size: var(--sl-font-size-large)">Aa</span>    |
-| `--sl-font-size-x-large`  | 1.5rem (24px)   | <span style="font-size: var(--sl-font-size-x-large)">Aa</span>  |
-| `--sl-font-size-2x-large` | 2.25rem (36px)  | <span style="font-size: var(--sl-font-size-2x-large)">Aa</span> |
-| `--sl-font-size-3x-large` | 3rem (48px)     | <span style="font-size: var(--sl-font-size-3x-large)">Aa</span> |
-| `--sl-font-size-4x-large` | 4.5rem (72px)   | <span style="font-size: var(--sl-font-size-4x-large)">Aa</span> |
+| Token                     | Value            | Example                                                         |
+| ------------------------- | ---------------- | --------------------------------------------------------------- |
+| `--sl-font-size-x-small`  | 0.6875rem (11px) | <span style="font-size: var(--sl-font-size-x-small)">Aa</span>  |
+| `--sl-font-size-small`    | 0.875rem (14px)  | <span style="font-size: var(--sl-font-size-small)">Aa</span>    |
+| `--sl-font-size-medium`   | 1rem (16px)      | <span style="font-size: var(--sl-font-size-medium)">Aa</span>   |
+| `--sl-font-size-large`    | 1.125rem (18px)  | <span style="font-size: var(--sl-font-size-large)">Aa</span>    |
+| `--sl-font-size-x-large`  | 1.375rem (22px)  | <span style="font-size: var(--sl-font-size-x-large)">Aa</span>  |
+| `--sl-font-size-2x-large` | 1.4rem (24px)    | <span style="font-size: var(--sl-font-size-2x-large)">Aa</span> |
+| `--sl-font-size-3x-large` | 2rem (32px)      | <span style="font-size: var(--sl-font-size-3x-large)">Aa</span> |
+| `--sl-font-size-4x-large` | 3rem (48px)      | <span style="font-size: var(--sl-font-size-4x-large)">Aa</span> |
 
 ## Font Weight
 

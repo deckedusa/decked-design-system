@@ -4,6 +4,20 @@
   color-scheme: light;
 
   /*
+   * Brand colors
+   */
+
+  --dds-white: #ffffff;
+  --dds-horizon-blue: #00dffa;
+  --dds-black: #282828;
+  --dds-fender-dirt: #b78b65;
+  --dds-fender-dirt-shade: #715b49;
+  --dds-red: #b40c18;
+  --dds-lightest-gray: #eeeeeb;
+  --dds-light-gray: #c8c9c7;
+  --dds-gray: #75787b;
+
+  /*
    * Color Primitives
    */
 
@@ -246,6 +260,9 @@
    */
 
   /* Primary */
+  --dds-color-primary: var(--dds-horizon-blue);
+  --dds-color-primary-inverse: var(--dds-black);
+
   --sl-color-primary-50: var(--sl-color-sky-50);
   --sl-color-primary-100: var(--sl-color-sky-100);
   --sl-color-primary-200: var(--sl-color-sky-200);
@@ -318,10 +335,10 @@
    * Border radii
    */
 
-  --sl-border-radius-small: 0.1875rem; /* 3px */
-  --sl-border-radius-medium: 0.25rem; /* 4px */
-  --sl-border-radius-large: 0.5rem; /* 8px */
-  --sl-border-radius-x-large: 1rem; /* 16px */
+  --sl-border-radius-small: 1px;
+  --sl-border-radius-medium: 2px;
+  --sl-border-radius-large: 4px;
+  --sl-border-radius-x-large: 1rem;
 
   --sl-border-radius-circle: 50%;
   --sl-border-radius-pill: 9999px;
@@ -367,20 +384,23 @@
 
   /* Fonts */
   --sl-font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
-  --sl-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  --sl-font-serif: Georgia, 'Times New Roman', serif;
+  --sl-font-header: decked-web, sans-serif;
+  --sl-font-sans: decked-web, sans-serif;
+
+  --dds-color-foreground: var(--dds-black);
+  --dds-color-inverse: var(--dds-white);
+  --dds-color-background: var(--dds-white);
+  --dds-color-text-muted: var(--dds-gray);
 
   /* Font sizes */
-  --sl-font-size-2x-small: 0.625rem; /* 10px */
-  --sl-font-size-x-small: 0.75rem; /* 12px */
-  --sl-font-size-small: 0.875rem; /* 14px */
-  --sl-font-size-medium: 1rem; /* 16px */
-  --sl-font-size-large: 1.25rem; /* 20px */
-  --sl-font-size-x-large: 1.5rem; /* 24px */
-  --sl-font-size-2x-large: 2.25rem; /* 36px */
-  --sl-font-size-3x-large: 3rem; /* 48px */
-  --sl-font-size-4x-large: 4.5rem; /* 72px */
+  --sl-font-size-x-small: var(--text-sm, 0.6875rem); /* 11px */
+  --sl-font-size-small: var(--text-base, 0.875rem); /* 14px */
+  --sl-font-size-medium: var(--text-lg, 1rem); /* 16px */
+  --sl-font-size-large: var(--text-xl, 1.125rem); /* 18px */
+  --sl-font-size-x-large: var(--text-2xl, 1.375rem); /* 22px */
+  --sl-font-size-2x-large: var(--text-3xl, 1.4rem); /* 24px */
+  --sl-font-size-3x-large: var(--text-4xl, 2rem); /* 32px */
+  --sl-font-size-4x-large: var(--text-h1, 3rem); /* 48px */
 
   /* Font weights */
   --sl-font-weight-light: 300;
@@ -403,7 +423,7 @@
   --sl-line-height-looser: 2.6;
 
   /* Focus rings */
-  --sl-focus-ring-color: var(--sl-color-primary-600);
+  --sl-focus-ring-color: var(--dds-horizon-blue);
   --sl-focus-ring-style: solid;
   --sl-focus-ring-width: 3px;
   --sl-focus-ring: var(--sl-focus-ring-style) var(--sl-focus-ring-width) var(--sl-focus-ring-color);
@@ -423,18 +443,18 @@
   --sl-input-height-medium: 2.5rem; /* 40px */
   --sl-input-height-large: 3.125rem; /* 50px */
 
-  --sl-input-background-color: var(--sl-color-neutral-0);
+  --sl-input-background-color: white;
   --sl-input-background-color-hover: var(--sl-input-background-color);
   --sl-input-background-color-focus: var(--sl-input-background-color);
-  --sl-input-background-color-disabled: var(--sl-color-neutral-100);
-  --sl-input-border-color: var(--sl-color-neutral-300);
-  --sl-input-border-color-hover: var(--sl-color-neutral-400);
-  --sl-input-border-color-focus: var(--sl-color-primary-500);
-  --sl-input-border-color-disabled: var(--sl-color-neutral-300);
+  --sl-input-background-color-disabled: var(--dds-lightest-gray);
+  --sl-input-border-color: var(--dds-gray);
+  --sl-input-border-color-hover: var(--dds-gray);
+  --sl-input-border-color-focus: var(--dds-horizon-blue);
+  --sl-input-border-color-disabled: var(--dds-gray);
   --sl-input-border-width: 1px;
   --sl-input-required-content: '*';
   --sl-input-required-content-offset: -2px;
-  --sl-input-required-content-color: var(--sl-input-label-color);
+  --sl-input-required-content-color: var(--dds-red);
 
   --sl-input-border-radius-small: var(--sl-border-radius-medium);
   --sl-input-border-radius-medium: var(--sl-border-radius-medium);
@@ -460,7 +480,7 @@
   --sl-input-spacing-medium: var(--sl-spacing-medium);
   --sl-input-spacing-large: var(--sl-spacing-large);
 
-  --sl-input-focus-ring-color: hsl(198.6 88.7% 48.4% / 40%);
+  --sl-input-focus-ring-color: var(--dds-horizon-blue);
   --sl-input-focus-ring-offset: 0;
 
   --sl-input-filled-background-color: var(--sl-color-neutral-100);
@@ -482,7 +502,7 @@
   --sl-input-help-text-font-size-small: var(--sl-font-size-x-small);
   --sl-input-help-text-font-size-medium: var(--sl-font-size-small);
   --sl-input-help-text-font-size-large: var(--sl-font-size-medium);
-  --sl-input-help-text-color: var(--sl-color-neutral-500);
+  --sl-input-help-text-color: var(--dds-gray);
 
   /* Toggles (checkboxes, radios, switches) */
   --sl-toggle-size-small: 0.875rem; /* 14px */
@@ -508,8 +528,8 @@
    */
 
   --sl-tooltip-border-radius: var(--sl-border-radius-medium);
-  --sl-tooltip-background-color: var(--sl-color-neutral-800);
-  --sl-tooltip-color: var(--sl-color-neutral-0);
+  --sl-tooltip-background-color: var(--dds-black);
+  --sl-tooltip-color: var(--dds-black);
   --sl-tooltip-font-family: var(--sl-font-sans);
   --sl-tooltip-font-weight: var(--sl-font-weight-normal);
   --sl-tooltip-font-size: var(--sl-font-size-small);

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'decked-web';
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+  src: url('https://decked.com/cdn/shop/t/399/assets/static.Decked-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'decked-web';
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+  src: url('https://decked.com/cdn/shop/t/399/assets/static.Decked-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'decked-web';
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+  src: url('https://decked.com/cdn/shop/t/399/assets/static.Decked-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'decked-web';
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  src: url('https://decked.com/cdn/shop/t/399/assets/static.Decked-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'decked-web';
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+  src: url('https://decked.com/cdn/shop/t/399/assets/static.Decked-ExtraLight.woff') format('woff');
+}

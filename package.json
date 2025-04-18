@@ -1,9 +1,9 @@
 {
-  "name": "@shoelace-style/shoelace",
-  "description": "A forward-thinking library of web components.",
-  "version": "2.20.1",
+  "name": "decked-design-system",
+  "description": "A library of web components for use with DECKED systems. Fork of [Shoelace Style](https://github.com/shoelace-style/shoelace)",
+  "version": "0.0.1",
   "homepage": "https://github.com/shoelace-style/shoelace",
-  "author": "Cory LaViska",
+  "author": "Ryan Gallagher",
   "license": "MIT",
   "customElements": "dist/custom-elements.json",
   "web-types": "./dist/web-types.json",
