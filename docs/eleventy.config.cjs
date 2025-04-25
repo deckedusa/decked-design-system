@@ -18,9 +18,9 @@ const scrollingTables = require('./_utilities/scrolling-tables.cjs');
 const typography = require('./_utilities/typography.cjs');
 const replacer = require('./_utilities/replacer.cjs');
 
-const assetsDir = 'assets';
-const cdndir = 'cdn';
-const npmdir = 'dist';
+const assetsDir = 'decked-design-system/assets';
+const cdndir = 'decked-design-system/cdn';
+const npmdir = 'decked-design-system/dist';
 const allComponents = getAllComponents();
 let hasBuiltSearchIndex = false;
 
@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
 
   // Generates a URL relative to the site's asset directory
   eleventyConfig.addNunjucksGlobal('assetUrl', (value = '', absolute = false) => {
-    value = path.join(`/decked-design-system/${assetsDir}`, value);
+    value = path.join(`/${assetsDir}`, value);
     return absolute ? new URL(value, eleventyConfig.globalData.baseUrl).toString() : value;
   });
 
