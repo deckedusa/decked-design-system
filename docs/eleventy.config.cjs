@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
   //
   // Global data
   //
-  eleventyConfig.addGlobalData('baseUrl', 'https://deckedusa.github.io/decked-design-system/'); // the production URL
+  eleventyConfig.addGlobalData('baseUrl', 'https://deckedusa.github.io/'); // the production URL
   eleventyConfig.addGlobalData('layout', 'default'); // make 'default' the default layout
   eleventyConfig.addGlobalData('toc', true); // enable the table of contents
   eleventyConfig.addGlobalData('meta', {
@@ -58,13 +58,13 @@ module.exports = function (eleventyConfig) {
 
   // Generates a URL relative to the site's root
   eleventyConfig.addNunjucksGlobal('rootUrl', (value = '', absolute = false) => {
-    value = path.join('/', value);
+    value = path.join('/decked-design-system/', value);
     return absolute ? new URL(value, eleventyConfig.globalData.baseUrl).toString() : value;
   });
 
   // Generates a URL relative to the site's asset directory
   eleventyConfig.addNunjucksGlobal('assetUrl', (value = '', absolute = false) => {
-    value = path.join(`/${assetsDir}`, value);
+    value = path.join(`/decked-design-system/${assetsDir}`, value);
     return absolute ? new URL(value, eleventyConfig.globalData.baseUrl).toString() : value;
   });
 

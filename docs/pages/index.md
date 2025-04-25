@@ -1,6 +1,6 @@
 ---
 meta:
-  title: 'Shoelace: A forward-thinking library of web components.'
+  title: 'DECKED Design System'
   description: Hand-crafted custom elements for any occasion.
 toc: false
 ---
