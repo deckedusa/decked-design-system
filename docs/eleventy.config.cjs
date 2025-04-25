@@ -28,12 +28,12 @@ module.exports = function (eleventyConfig) {
   //
   // Global data
   //
-  eleventyConfig.addGlobalData('baseUrl', 'https://shoelace.style/'); // the production URL
+  eleventyConfig.addGlobalData('baseUrl', 'https://deckedusa.github.io/decked-design-system/'); // the production URL
   eleventyConfig.addGlobalData('layout', 'default'); // make 'default' the default layout
   eleventyConfig.addGlobalData('toc', true); // enable the table of contents
   eleventyConfig.addGlobalData('meta', {
-    title: 'Shoelace',
-    description: 'A forward-thinking library of web components.',
+    title: 'DECKED Design System',
+    description: 'A forward-thinking library of web components, for DECKED.',
     image: 'images/og-image.png',
     version: customElementsManifest.package.version,
     components: allComponents,
