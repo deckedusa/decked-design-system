@@ -17,7 +17,6 @@ const prettier = require('./_utilities/prettier.cjs');
 const scrollingTables = require('./_utilities/scrolling-tables.cjs');
 const typography = require('./_utilities/typography.cjs');
 const replacer = require('./_utilities/replacer.cjs');
-const { HtmlBasePlugin } = require('@11ty/eleventy');
 
 const assetsDir = 'assets';
 const cdndir = 'cdn';
