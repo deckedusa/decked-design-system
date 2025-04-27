@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
     npmdir
   });
 
-  eleventyConfig.addPlugin(HtmlBasePlugin);
+  //eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addGlobalData('pathPrefix', '/decked-design-system/');
 
   //
