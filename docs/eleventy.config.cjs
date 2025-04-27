@@ -17,6 +17,7 @@ const prettier = require('./_utilities/prettier.cjs');
 const scrollingTables = require('./_utilities/scrolling-tables.cjs');
 const typography = require('./_utilities/typography.cjs');
 const replacer = require('./_utilities/replacer.cjs');
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
 
 const assetsDir = 'assets';
 const cdndir = 'cdn';
@@ -40,9 +41,6 @@ module.exports = function (eleventyConfig) {
     cdndir,
     npmdir
   });
-
-  //eleventyConfig.addPlugin(HtmlBasePlugin);
-  eleventyConfig.addGlobalData('pathPrefix', '/decked-design-system/');
 
   //
   // Layout aliases
@@ -234,6 +232,8 @@ module.exports = function (eleventyConfig) {
     watch: ['cdn/**/*'] // additional files to watch that will trigger server updates (array of paths or globs)
   });
 
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
   //
   // 11ty config
   //
@@ -243,6 +243,7 @@ module.exports = function (eleventyConfig) {
       output: '../_site',
       includes: '../_includes' // resolved relative to the input dir
     },
+    pathPrefix: '/decked-design-system/',
     markdownTemplateEngine: 'njk', // use Nunjucks instead of Liquid for markdown files
     templateEngineOverride: ['njk'] // just Nunjucks and then markdown
   };

@@ -37,7 +37,7 @@ async function buildTheDocs(watch = false) {
 
     // Totally non-scientific way to handle errors. Perhaps its just better to resolve on stderr? :shrug:
     const errorSignal = 'Original error stack trace:';
-    const args = ['@11ty/eleventy', '--quiet', '--pathprefix', '/decked-design-system/'];
+    const args = ['@11ty/eleventy', '--quiet'];
     const output = [];
 
     if (watch) {
