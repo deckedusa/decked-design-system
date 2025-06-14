@@ -1,6 +1,6 @@
-# Shoelace
+# DECKED Design System
 
-A forward-thinking library of web components.
+A custom libary of components designed to work for the DECKED web platforms.
 
 - Works with all frameworks 🧩
 - Works with CDNs 🚛
@@ -9,15 +9,13 @@ A forward-thinking library of web components.
 - Built with accessibility in mind ♿️
 - Open source 😸
 
-Designed in New Hampshire by [Cory LaViska](https://twitter.com/cory_laviska).
+Built by Ryan Gallagher. Based on [Shoelace](https://shoelace.style) designed in New Hampshire by [Cory LaViska](https://twitter.com/cory_laviska).
 
 ---
 
 Documentation: [shoelace.style](https://shoelace.style)
 
-Source: [github.com/shoelace-style/shoelace](https://github.com/shoelace-style/shoelace)
-
-Twitter: [@shoelace_style](https://twitter.com/shoelace_style)
+Source: [github.com/deckedusa/decked-design-system](https://github.com/deckedusa/decked-design-system)
 
 ---
 
@@ -27,21 +25,11 @@ Shoemakers, or "Shoelace developers," can use this documentation to learn how to
 
 **You don't need to do any of this to use Shoelace!** This page is for people who want to contribute to the project, tinker with the source, or create a custom build of Shoelace.
 
-If that's not what you're trying to do, the [documentation website](https://shoelace.style) is where you want to be.
+If that's not what you're trying to do, the [documentation website](https://deckedusa.github.io/decked-design-system/) is where you want to be.
 
-### What are you using to build Shoelace?
+### What are you using to build DECKED Shoelace?
 
 Components are built with [LitElement](https://lit-element.polymer-project.org/), a custom elements base class that provides an intuitive API and reactive data binding. The build is a custom script with bundling powered by [esbuild](https://esbuild.github.io/).
-
-### Forking the Repo
-
-Start by [forking the repo](https://github.com/shoelace-style/shoelace/fork) on GitHub, then clone it locally and install dependencies.
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/shoelace
-cd shoelace
-npm install
-```
 
 ### Developing
 
@@ -70,13 +58,3 @@ npm run create sl-tag-name
 ```
 
 This will generate a source file, a stylesheet, and a docs page for you. When you start the dev server, you'll find the new component in the "Components" section of the sidebar.
-
-### Contributing
-
-Shoelace is an open source project and contributions are encouraged! If you're interesting in contributing, please review the [contribution guidelines](CONTRIBUTING.md) first.
-
-## License
-
-Shoelace was created by [Cory LaViska](https://twitter.com/cory_laviska) and is available under the terms of the MIT license.
-
-Whether you're building Shoelace or building something _with_ Shoelace — have fun creating! 🥾
