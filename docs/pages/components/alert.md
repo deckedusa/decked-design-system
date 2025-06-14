@@ -13,8 +13,8 @@ layout: component
 ```
 
 ```jsx:react
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const App = () => (
   <SlAlert open>
@@ -75,8 +75,8 @@ Set the `variant` attribute to change the alert's variant.
 ```
 
 ```jsx:react
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const App = () => (
   <>
@@ -146,8 +146,8 @@ Add the `closable` attribute to show a close button that will hide the alert.
 
 ```jsx:react
 import { useState } from 'react';
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const App = () => {
   const [open, setOpen] = useState(true);
@@ -175,7 +175,7 @@ Icons are optional. Simply omit the `icon` slot if you don't want them.
 ```
 
 ```jsx:react
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
 
 const App = () => (
   <SlAlert variant="primary" open>
@@ -215,9 +215,9 @@ Set the `duration` attribute to automatically hide an alert after a period of ti
 
 ```jsx:react
 import { useState } from 'react';
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
+import SlButton from '@decked/decked-design-system/dist/react/button';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const css = `
   .alert-duration sl-alert {
@@ -278,9 +278,9 @@ Set the `countdown` attribute to display a loading bar that indicates the alert 
 
 ```jsx:react
 import { useState } from 'react';
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
+import SlButton from '@decked/decked-design-system/dist/react/button';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const css = `
   .alert-countdown sl-alert {
@@ -369,9 +369,9 @@ You should always use the `closable` attribute so users can dismiss the notifica
 
 ```jsx:react
 import { useRef } from 'react';
-import SlAlert from '@shoelace-style/shoelace/dist/react/alert';
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlAlert from '@decked/decked-design-system/dist/react/alert';
+import SlButton from '@decked/decked-design-system/dist/react/button';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 function showToast(alert) {
   alert.toast();

@@ -6,6 +6,8 @@ meta:
 
 # Usage
 
+The _DECKED Design System_ is a fork of _[Shoelace](https://shoelace.style/)_, an opensource collection of web components that gives us a good base to design on top of. We've spent a lot of time updating the styles and funcitonality of these components to match the DECKED brand and serve the specific needs of the DECKED web platforms. Within this documention you may see _DECKED Design System_, _DECKED Shoelace_, and _Shoelace_ all used interchangably there is really no difference between the three, and all Shoelace related docs should be relivant with the _DECKED Design System_.
+
 Shoelace components are just regular HTML elements, or [custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) to be precise. You can use them like any other element. Each component has detailed documentation that describes its full API, including properties, events, methods, and more.
 
 If you're new to custom elements, often referred to as "web components," this section will familiarize you with how to use them.
@@ -204,7 +206,7 @@ Shoelace ships with a file called `vscode.html-custom-data.json` that can be use
 
 ```js
 {
-  "html.customData": ["./node_modules/@shoelace-style/shoelace/dist/vscode.html-custom-data.json"]
+  "html.customData": ["./node_modules/@decked/decked-design-system/dist/vscode.html-custom-data.json"]
 }
 ```
 
@@ -214,7 +216,7 @@ If `settings.json` already exists, simply add the above line to the root of the 
 
 If you are using a [JetBrains IDE](https://www.jetbrains.com/) and you are installing Shoelace from NPM, the editor will automatically detect the `web-types.json` file from the package and you should immediately see component information in your editor.
 
-If you are installing from the CDN, you can [download a local copy](https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace/dist/web-types.json) and add it to the root of your project. Be sure to add a reference to the `web-types.json` file in your `package.json` in order for your editor to properly detect it.
+If you are installing from the CDN, you can [download a local copy](https://cdn.jsdelivr.net/npm/@decked/decked-design-system/dist/web-types.json) and add it to the root of your project. Be sure to add a reference to the `web-types.json` file in your `package.json` in order for your editor to properly detect it.
 
 ```json
 {

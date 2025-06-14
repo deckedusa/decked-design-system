@@ -10,7 +10,7 @@ layout: component
 ```
 
 ```jsx:react
-import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
+import SlBadge from '@decked/decked-design-system/dist/react/badge';
 
 const App = () => <SlBadge>Badge</SlBadge>;
 ```
@@ -30,7 +30,7 @@ Set the `variant` attribute to change the badge's variant.
 ```
 
 ```jsx:react
-import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
+import SlBadge from '@decked/decked-design-system/dist/react/badge';
 
 const App = () => (
   <>
@@ -55,7 +55,7 @@ Use the `pill` attribute to give badges rounded edges.
 ```
 
 ```jsx:react
-import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
+import SlBadge from '@decked/decked-design-system/dist/react/badge';
 
 const App = () => (
   <>
@@ -95,7 +95,7 @@ Use the `pulse` attribute to draw attention to the badge with a subtle animation
 ```
 
 ```jsx:react
-import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
+import SlBadge from '@decked/decked-design-system/dist/react/badge';
 
 const css = `
   .badge-pulse sl-badge:not(:last-of-type) {
@@ -144,8 +144,8 @@ One of the most common use cases for badges is attaching them to buttons. To mak
 {% raw %}
 
 ```jsx:react
-import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlBadge from '@decked/decked-design-system/dist/react/badge';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -188,11 +188,11 @@ When including badges in menu items, use the `suffix` slot to make sure they're 
 {% raw %}
 
 ```jsx:react
-import SlBadge from '@shoelace-style/shoelace/dist/react/badge';
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
-import SlMenu from '@shoelace-style/shoelace/dist/react/menu';
-import SlMenuItem from '@shoelace-style/shoelace/dist/react/menu-item';
-import SlMenuLabel from '@shoelace-style/shoelace/dist/react/menu-label';
+import SlBadge from '@decked/decked-design-system/dist/react/badge';
+import SlButton from '@decked/decked-design-system/dist/react/button';
+import SlMenu from '@decked/decked-design-system/dist/react/menu';
+import SlMenuItem from '@decked/decked-design-system/dist/react/menu-item';
+import SlMenuLabel from '@decked/decked-design-system/dist/react/menu-label';
 
 const App = () => (
   <SlMenu

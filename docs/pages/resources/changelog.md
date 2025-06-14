@@ -403,8 +403,8 @@ This is the first stable release of Shoelace 2, meaning breaking changes to the 
 - [274 pull requests](https://github.com/shoelace-style/shoelace/pulls) have been opened
 - [More than 150 discussions](https://github.com/shoelace-style/shoelace/discussions) have been started on GitHub
 - [Over 500 people](https://discord.com/invite/mg8f26C) have joined the Shoelace community on Discord
-- [Over 300 million CDN hits](https://www.jsdelivr.com/package/npm/@shoelace-style/shoelace) per month
-- [Over 13,000 npm downloads](https://www.npmjs.com/package/@shoelace-style/shoelace) per week
+- [Over 300 million CDN hits](https://www.jsdelivr.com/package/npm/@decked/decked-design-system) per month
+- [Over 13,000 npm downloads](https://www.npmjs.com/package/@decked/decked-design-system) per week
 - [73rd most popular project](https://www.jsdelivr.com/statistics) on jsDelivr
 - [#2
 
@@ -1402,10 +1402,10 @@ The most elegant solution I found was to use the [Web Animations API](https://de
 
 This release changes the way components are registered if you're [cherry picking](/getting-started/installation#cherry-picking) or [using a bundler](/getting-started/installation#bundling). This recommendation came from the LitElement team and simplifies Shoelace's dependency graph. It also eliminates the need to call a `register()` function before using each component.
 
-From now on, importing a component will register it automatically. The caveat is that bundlers may not tree shake the library properly if you import from `@shoelace-style/shoelace`, so the recommendation is to import components and utilities from their corresponding files instead.
+From now on, importing a component will register it automatically. The caveat is that bundlers may not tree shake the library properly if you import from `@decked/decked-design-system`, so the recommendation is to import components and utilities from their corresponding files instead.
 
 - 🚨 BREAKING: removed `all.shoelace.js` (use `shoelace.js` instead)
-- 🚨 BREAKING: component modules now have a side effect, so bundlers may not tree shake properly when importing from `@shoelace-style/shoelace` (see the [installation page](/getting-started/installation#bundling) for more details and how to update)
+- 🚨 BREAKING: component modules now have a side effect, so bundlers may not tree shake properly when importing from `@decked/decked-design-system` (see the [installation page](/getting-started/installation#bundling) for more details and how to update)
 - Added `sl-clear` event to `<sl-select>`
 - Fixed a bug where dynamically changing menu items in `<sl-select>` would cause the display label to be blank [#374]
 - Fixed a bug where setting the `value` attribute or property on `<sl-input>` and `<sl-textarea>` would trigger validation too soon

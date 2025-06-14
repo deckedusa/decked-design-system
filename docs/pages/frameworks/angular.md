@@ -15,7 +15,7 @@ Angular [plays nice](https://custom-elements-everywhere.com/#angular) with custo
 To add Shoelace to your Angular app, install the package from npm.
 
 ```bash
-npm install @shoelace-style/shoelace
+npm install @decked/decked-design-system
 ```
 
 ### Update the Angular Configuration
@@ -32,10 +32,10 @@ Its also important to load the components by using a `<script>` tag into the ind
       ...
       "styles": [
         "src/styles.scss",
-        "@shoelace-style/shoelace/dist/themes/light.css"
+        "@decked/decked-design-system/dist/themes/light.css"
        ],
       "scripts": [
-        "@shoelace-style/shoelace/dist/shoelace.js"
+        "@decked/decked-design-system/dist/shoelace.js"
       ]
       ...
 ```
@@ -45,13 +45,13 @@ Its also important to load the components by using a `<script>` tag into the ind
 Next, set the [base path](/getting-started/installation#setting-the-base-path) for icons and other assets in the `main.ts`. In this example, we'll use the CDN as a base path.
 
 ```jsx
-import { setBasePath } from '@shoelace-style/shoelace/%NPMDIR%/utilities/base-path';
+import { setBasePath } from '@decked/decked-design-system/%NPMDIR%/utilities/base-path';
 
-setBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@%VERSION%/%CDNDIR%/');
+setBasePath('https://cdn.jsdelivr.net/npm/@decked/decked-design-system@%VERSION%/%CDNDIR%/');
 ```
 
 :::tip
-If you'd rather not use the CDN for assets, you can create a build task that copies `node_modules/@shoelace-style/shoelace/%NPMDIR%/assets` into a public folder in your app. Then you can point the base path to that folder instead.
+If you'd rather not use the CDN for assets, you can create a build task that copies `node_modules/@decked/decked-design-system/%NPMDIR%/assets` into a public folder in your app. Then you can point the base path to that folder instead.
 :::
 
 ## Configuration
@@ -77,7 +77,7 @@ export class AppModule {}
 ## Reference Shoelace components in your Angular component code
 
 ```js
-import { SlDrawer } from '@shoelace-style/shoelace';
+import { SlDrawer } from '@decked/decked-design-system';
 
 @Component({
   selector: 'app-drawer-example',

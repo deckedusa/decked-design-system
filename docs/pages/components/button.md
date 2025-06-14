@@ -10,7 +10,7 @@ layout: component
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => <SlButton>Button</SlButton>;
 ```
@@ -29,7 +29,7 @@ Use the `variant` attribute to set the button's variant.
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -52,7 +52,7 @@ Use the `size` attribute to change a button's size.
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -64,7 +64,7 @@ const App = () => (
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -86,7 +86,7 @@ Use the `pill` attribute to give buttons rounded edges.
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -123,8 +123,8 @@ Use the `circle` attribute to create circular icon buttons. When this attribute 
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlButton from '@decked/decked-design-system/dist/react/button';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const App = () => (
   <>
@@ -152,7 +152,7 @@ Use the `text` variant to create text buttons that share the same size as regula
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -181,7 +181,7 @@ It's often helpful to have a button that works like a link. This is possible by 
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -216,7 +216,7 @@ As expected, buttons can be given a custom width by passing inline styles to the
 {% raw %}
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -294,8 +294,8 @@ Use the `prefix` and `suffix` slots to add icons.
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlButton from '@decked/decked-design-system/dist/react/button';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const App = () => (
   <>
@@ -367,7 +367,7 @@ Use the `caret` attribute to add a dropdown indicator when a button will trigger
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -394,7 +394,7 @@ Use the `loading` attribute to make a button busy. The width will remain the sam
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>
@@ -418,7 +418,7 @@ Use the `disabled` attribute to disable a button.
 ```
 
 ```jsx:react
-import SlButton from '@shoelace-style/shoelace/dist/react/button';
+import SlButton from '@decked/decked-design-system/dist/react/button';
 
 const App = () => (
   <>

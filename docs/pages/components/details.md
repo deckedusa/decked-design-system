@@ -15,7 +15,7 @@ layout: component
 ```
 
 ```jsx:react
-import SlDetails from '@shoelace-style/shoelace/dist/react/details';
+import SlDetails from '@decked/decked-design-system/dist/react/details';
 
 const App = () => (
   <SlDetails summary="Toggle Me">
@@ -39,7 +39,7 @@ Use the `disable` attribute to prevent the details from expanding.
 ```
 
 ```jsx:react
-import SlDetails from '@shoelace-style/shoelace/dist/react/details';
+import SlDetails from '@decked/decked-design-system/dist/react/details';
 
 const App = () => (
   <SlDetails summary="Disabled" disabled>
@@ -71,8 +71,8 @@ Use the `expand-icon` and `collapse-icon` slots to change the expand and collaps
 ```
 
 ```jsx:react
-import SlDetails from '@shoelace-style/shoelace/dist/react/details';
-import SlIcon from '@shoelace-style/shoelace/dist/react/icon';
+import SlDetails from '@decked/decked-design-system/dist/react/details';
+import SlIcon from '@decked/decked-design-system/dist/react/icon';
 
 const css = `
   sl-details.custom-icon::part(summary-icon) {
