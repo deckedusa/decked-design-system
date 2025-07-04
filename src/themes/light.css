@@ -13,9 +13,9 @@
   --dds-fender-dirt: #b78b65;
   --dds-fender-dirt-shade: #715b49;
   --dds-red: #b40c18;
-  --dds-lightest-gray: #eeeeeb;
-  --dds-light-gray: #c8c9c7;
-  --dds-gray: #75787b;
+  --dds-lightest-gray: hsl(60, 8%, 93%);
+  --dds-light-gray: hsl(90, 2%, 78%);
+  --dds-gray: hsl(210, 3%, 47%);
 
   /*
    * Color Primitives
@@ -341,7 +341,7 @@
 
   /* Neutral one-offs */
   --sl-color-neutral-0: hsl(0, 0%, 100%);
-  --sl-color-neutral-1000: hsl(0, 0%, 0%);
+  --sl-color-neutral-1000: var(--dds-black);
 
   /*
    * Border radii

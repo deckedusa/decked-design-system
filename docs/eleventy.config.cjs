@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
   //
   // Global data
   //
-  eleventyConfig.addGlobalData('baseUrl', 'https://deckedusa.github.io/'); // the production URL
+  eleventyConfig.addGlobalData('baseUrl', 'https://decked-design-system.dev.decked.com'); // the production URL
   eleventyConfig.addGlobalData('layout', 'default'); // make 'default' the default layout
   eleventyConfig.addGlobalData('toc', true); // enable the table of contents
   eleventyConfig.addGlobalData('meta', {
@@ -243,7 +243,7 @@ module.exports = function (eleventyConfig) {
       output: '../_site',
       includes: '../_includes' // resolved relative to the input dir
     },
-    pathPrefix: '/decked-design-system/',
+    //pathPrefix: '/decked-design-system/',
     markdownTemplateEngine: 'njk', // use Nunjucks instead of Liquid for markdown files
     templateEngineOverride: ['njk'] // just Nunjucks and then markdown
   };

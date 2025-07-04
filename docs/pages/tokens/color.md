@@ -10,6 +10,54 @@ Color tokens help maintain consistent use of color throughout your app. Shoelace
 
 Color tokens are referenced using the `--sl-color-{name}-{n}` CSS custom property, where `{name}` is the name of the palette and `{n}` is the numeric value of the desired swatch.
 
+## Brand Tokens
+
+Brand tokens are the colors officially approved and used by the brand in its designs. These will not change when the theme changes, but can be used to create a consistent experience across the app.
+
+<div class="color-palette">
+  <div class="color-palette__name">
+    Horizon Blue<br>
+    <code>--dds-horizon-blue</code>
+  </div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-horizon-blue);"></div></div>
+</div>
+
+<div class="color-palette">
+  <div class="color-palette__name">
+    Fender Dirt<br>
+    <code>
+    --dds-fender-dirt<br/>
+    --dds-fender-dirt-shade
+    </code>
+  </div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-fender-dirt);"></div></div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-fender-dirt-shade);"></div></div>
+</div>
+
+<div class="color-palette">
+  <div class="color-palette__name">
+    Red<br>
+    <code>--dds-red</code>
+  </div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-red);"></div></div>
+</div>
+
+<div class="color-palette">
+  <div class="color-palette__name">
+    Decked Greys<br>
+    <code>
+    --dds-lightest-gray<br/>
+    --dds-light-gray<br/>
+    --dds-gray<br/>
+    --dds-black
+    </code>
+  </div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-lightest-gray);"></div></div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-light-gray);"></div></div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-gray);"></div></div>
+  <div class="color-palette__example"><div class="color-palette__swatch" style="background-color: var(--dds-black);"></div></div>
+</div>
+
 ## Theme Tokens
 
 Theme tokens give you a semantic way to reference colors in your app. The primary palette is typically based on a brand color, whereas success, neutral, warning, and danger are used to visualize actions that correspond to their respective meanings.

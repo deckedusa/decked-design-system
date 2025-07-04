@@ -2,7 +2,7 @@
   "name": "@decked/decked-design-system",
   "description": "A library of web components for use with DECKED systems. Fork of [Shoelace Style](https://github.com/shoelace-style/shoelace)",
   "version": "0.0.1",
-  "homepage": "https://github.com/deckedusa/decked-design-system",
+  "homepage": "https://decked-design-system.dev.decked.com",
   "author": "Ryan Gallagher",
   "license": "MIT",
   "customElements": "dist/custom-elements.json",

@@ -15,7 +15,7 @@ Built by Ryan Gallagher. Based on [Shoelace](https://shoelace.style) designed in
 
 Documentation: [DECKED Design System](https://deckedusa.github.io/decked-design-system/)
 
-Source: [github.com/deckedusa/decked-design-system](https://github.com/deckedusa/decked-design-system)
+Source: [github.com/deckedusa/decked-design-system](https://decked-design-system.dev.decked.com)
 
 ---
 
