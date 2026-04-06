@@ -12,10 +12,11 @@ Typography tokens are used to maintain a consistent set of font styles throughou
 
 The default font stack is designed to be simple and highly available on as many devices as possible.
 
-| Token            | Value                                                                                                                                         | Example                                                                                             |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `--sl-font-sans` | -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' | <span style="font-family: var(--sl-font-sans)">The quick brown fox jumped over the lazy dog.</span> |
-| `--sl-font-mono` | SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;                                                                                | <span style="font-family: var(--sl-font-mono)">The quick brown fox jumped over the lazy dog.</span> |
+| Token              | Value                         | Example                                                                                             |
+| ------------------ | ----------------------------- | --------------------------------------------------------------------------------------------------- |
+| `--sl-font-header` | decked-web, sans-serif        | <span style="font-family: var(--sl-font-header)">Get After It.</span>                               |
+| `--sl-font-sans`   | Gotham, decked-web, Helvetica | <span style="font-family: var(--sl-font-sans)">The quick brown fox jumped over the lazy dog.</span> |
+| `--sl-font-mono`   | decked-web, sans-serif        | <span style="font-family: var(--sl-font-mono)">The quick brown fox jumped over the lazy dog.</span> |
 
 ## Font Size
 
