@@ -27,7 +27,7 @@
   font-weight: 400;
   font-style: normal;
   font-display: fallback;
-  src: url('https://decked.com/cdn/shop/t/434/assets/static.gotham-light-webfont.woff') format('woff');
+  src: url('https://decked.com/cdn/shop/t/434/assets/static.gotham-book-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -35,5 +35,5 @@
   font-weight: 400;
   font-style: italic;
   font-display: fallback;
-  src: url('https://decked.com/cdn/shop/t/434/assets/static.gotham-lightitalic-webfont.woff') format('woff');
+  src: url('https://decked.com/cdn/shop/t/434/assets/static.gotham-bookitalic-webfont.woff') format('woff');
 }

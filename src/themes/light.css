@@ -397,8 +397,8 @@
 
   /* Fonts */
   --sl-font-mono: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
-  --sl-font-header: decked-web, sans-serif;
-  --sl-font-sans: Gotham, decked-web, Helvetica;
+  --sl-font-header: decked-web, monospace;
+  --sl-font-sans: Gotham, Helvetica;
 
   --sl-text-transform-header: uppercase;
 
