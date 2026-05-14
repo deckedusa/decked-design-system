@@ -813,6 +813,7 @@ pre:hover .copy-code-button,
 .sidebar-buttons {
   display: flex;
   justify-content: space-between;
+  gap: var(--sl-spacing-x-small);
 }
 
 /* Main content */
@@ -1073,26 +1074,6 @@ html.sidebar-open #menu-toggle {
   width: 140px;
 }
 
-#theme-selector sl-button {
-  transition: 250ms scale ease;
-}
-
-#theme-selector sl-button::part(base) {
-  color: var(--sl-color-neutral-0);
-}
-
-#theme-selector sl-button::part(label) {
-  display: flex;
-  padding: 0.5rem;
-}
-
-#theme-selector sl-icon {
-  font-size: 1.25rem;
-}
-
-.sl-theme-dark #theme-selector sl-button::part(base) {
-  color: var(--sl-color-neutral-1000);
-}
 
 .sl-theme-dark #icon-toolbar {
   background: var(--sl-color-neutral-200);

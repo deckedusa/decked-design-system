@@ -109,15 +109,15 @@ Use the `circle` attribute to create circular icon buttons. When this attribute 
 
 ```html:preview
 <sl-button variant="default" size="small" circle>
-  <sl-icon name="gear" label="Settings"></sl-icon>
+  <sl-icon name="plus" label="Settings"></sl-icon>
 </sl-button>
 
 <sl-button variant="default" size="medium" circle>
-  <sl-icon name="gear" label="Settings"></sl-icon>
+  <sl-icon name="plus" label="Settings"></sl-icon>
 </sl-button>
 
 <sl-button variant="default" size="large" circle>
-  <sl-icon name="gear" label="Settings"></sl-icon>
+  <sl-icon name="plus" label="Settings"></sl-icon>
 </sl-button>
 
 ```
@@ -129,13 +129,13 @@ import SlIcon from '@decked/decked-design-system/dist/react/icon';
 const App = () => (
   <>
     <SlButton variant="default" size="small" circle>
-      <SlIcon name="gear" />
+      <SlIcon name="plus" />
     </SlButton>
     <SlButton variant="default" size="medium" circle>
-      <SlIcon name="gear" />
+      <SlIcon name="plus" />
     </SlButton>
     <SlButton variant="default" size="large" circle>
-      <SlIcon name="gear" />
+      <SlIcon name="plus" />
     </SlButton>
   </>
 );
@@ -165,6 +165,34 @@ const App = () => (
     <SlButton variant="text" size="large">
       Text
     </SlButton>
+  </>
+);
+```
+
+### Active Text Buttons
+
+Use the `active` attribute on a `text` variant button to show a light gray background, indicating the selected state. This is useful for tab-style navigation.
+
+```html:preview
+<sl-button variant="text" size="small">Inactive</sl-button>
+<sl-button variant="text" size="small" active>Active</sl-button>
+<sl-button variant="text" size="medium">Inactive</sl-button>
+<sl-button variant="text" size="medium" active>Active</sl-button>
+<sl-button variant="text" size="large">Inactive</sl-button>
+<sl-button variant="text" size="large" active>Active</sl-button>
+```
+
+```jsx:react
+import SlButton from '@decked/decked-design-system/dist/react/button';
+
+const App = () => (
+  <>
+    <SlButton variant="text" size="small">Inactive</SlButton>
+    <SlButton variant="text" size="small" active>Active</SlButton>
+    <SlButton variant="text" size="medium">Inactive</SlButton>
+    <SlButton variant="text" size="medium" active>Active</SlButton>
+    <SlButton variant="text" size="large">Inactive</SlButton>
+    <SlButton variant="text" size="large" active>Active</SlButton>
   </>
 );
 ```

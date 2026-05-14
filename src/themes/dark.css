@@ -7,6 +7,20 @@
   color-scheme: dark;
 
   /*
+   * DDS Primitives
+   */
+
+  --dds-white: #d7d7d7;
+  --dds-black: #282828;
+  --dds-horizon-blue: #00dffa;
+  --dds-fender-dirt: #b78b65;
+  --dds-fender-dirt-shade: #715b49;
+  --dds-red: #b40c18;
+  --dds-lightest-gray: hsl(60, 8%, 93%);
+  --dds-light-gray: hsl(90, 2%, 78%);
+  --dds-gray: hsl(210, 3%, 47%);
+
+  /*
    * Color Primitives
    */
 
@@ -416,7 +430,7 @@
    */
 
   /* Buttons */
-  --sl-button-font-size-small: var(--sl-font-size-2x-small);
+  --sl-button-font-size-small: var(--sl-font-size-x-small);
   --sl-button-font-size-medium: var(--sl-font-size-small);
   --sl-button-font-size-large: var(--sl-font-size-medium);
 
@@ -518,6 +532,19 @@
   --sl-tooltip-line-height: var(--sl-line-height-dense);
   --sl-tooltip-padding: var(--sl-spacing-2x-small) var(--sl-spacing-x-small);
   --sl-tooltip-arrow-size: 6px;
+
+  /*
+   * DDS semantic tokens
+   */
+
+  --dds-color-primary: var(--dds-horizon-blue);
+  --dds-color-primary-inverse: var(--dds-black);
+  --dds-color-foreground: var(--dds-white);
+  --dds-color-inverse: var(--dds-black);
+  --dds-color-background: var(--sl-color-neutral-0);
+  --dds-color-text-muted: var(--dds-light-gray);
+
+  --sl-color-neutral-1000: var(--dds-white);
 
   /*
    * Z-indexes

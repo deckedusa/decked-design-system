@@ -10,6 +10,7 @@ export default css`
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--sl-font-header);
     font-size: max(12px, 0.75em);
     font-weight: var(--sl-font-weight-bold);
     letter-spacing: var(--sl-letter-spacing-losser);

@@ -20,19 +20,19 @@ export default css`
     font-weight: var(--sl-font-weight-normal);
     line-height: var(--sl-line-height-normal);
     letter-spacing: var(--sl-letter-spacing-normal);
-    color: var(--dds-black);
+    color: var(--dds-color-foreground);
     padding: var(--sl-spacing-x-small) var(--sl-spacing-medium) var(--sl-spacing-x-small) var(--sl-spacing-x-small);
     transition: var(--sl-transition-fast) fill;
     cursor: pointer;
   }
 
   .option--hover:not(.option--current):not(.option--disabled) {
-    background-color: var(--dds-lightest-gray);
+    background-color: color-mix(in srgb, currentColor 8%, transparent);
   }
 
   .option--current,
   .option--current.option--disabled {
-    background-color: var(--dds-lightest-gray);
+    background-color: color-mix(in srgb, currentColor 8%, transparent);
     opacity: 1;
   }
 

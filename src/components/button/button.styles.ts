@@ -10,7 +10,7 @@ export default css`
 
   .button {
     text-transform: uppercase;
-    letter-spacing: var(--sl-letter-spacing-looser);
+    letter-spacing: var(--sl-letter-spacing-loose);
     display: inline-flex;
     align-items: stretch;
     justify-content: center;
@@ -70,6 +70,21 @@ export default css`
 
   .button__label::slotted(sl-icon) {
     vertical-align: -2px;
+    font-size: 1rem;
+  }
+
+  .button--small .button__label::slotted(sl-icon) {
+    font-size: 0.875rem;
+  }
+
+  .button__prefix::slotted(sl-icon),
+  .button__suffix::slotted(sl-icon) {
+    font-size: 1rem;
+  }
+
+  .button--small .button__prefix::slotted(sl-icon),
+  .button--small .button__suffix::slotted(sl-icon) {
+    font-size: 0.875rem;
   }
 
   /*
@@ -212,6 +227,12 @@ export default css`
     background-color: var(--dds-color-primary);
     border-color: var(--dds-color-primary);
     color: var(--dds-color-primary-inverse);
+  }
+
+  .button--text.button--active:not(.button--disabled) {
+    background-color: color-mix(in srgb, currentColor 10%, transparent);
+    border-color: transparent;
+    color: var(--dds-color-foreground);
   }
 
   /*

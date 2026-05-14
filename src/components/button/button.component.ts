@@ -76,6 +76,9 @@ export default class SlButton extends ShoelaceElement implements ShoelaceFormCon
   /** Draws an outlined button. */
   @property({ type: Boolean, reflect: true }) outline = false;
 
+  /** Marks the button as active. When used with the text variant, shows a light gray background to indicate selection (e.g. tabs). */
+  @property({ type: Boolean, reflect: true }) active = false;
+
   /**
    * Draws a circular icon button. When this attribute is present, the button expects a single `<sl-icon>` in the
    * default slot.
@@ -274,6 +277,7 @@ export default class SlButton extends ShoelaceElement implements ShoelaceFormCon
           'button--disabled': this.disabled,
           'button--focused': this.hasFocus,
           'button--loading': this.loading,
+          'button--active': this.active,
           'button--standard': !this.outline,
           'button--outline': this.outline,
 'button--rtl': this.localize.dir() === 'rtl',
