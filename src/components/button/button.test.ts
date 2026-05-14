@@ -4,7 +4,7 @@ import { runFormControlBaseTests } from '../../internal/test/form-control-base-t
 import sinon from 'sinon';
 import type SlButton from './button.js';
 
-const variants = ['default', 'primary', 'success', 'neutral', 'warning', 'danger'];
+const variants = ['default', 'primary', 'secondary', 'highlight', 'text'];
 
 describe('<sl-button>', () => {
   describe('accessibility tests', () => {
@@ -89,7 +89,6 @@ describe('<sl-button>', () => {
       expect(el.caret).to.equal(false);
       expect(el.loading).to.equal(false);
       expect(el.outline).to.equal(false);
-      expect(el.pill).to.equal(false);
       expect(el.circle).to.equal(false);
     });
 

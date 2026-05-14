@@ -243,22 +243,6 @@ export default css`
   }
 
   /*
-   * Pill modifier
-   */
-
-  .button--pill.button--small {
-    border-radius: var(--sl-input-height-small);
-  }
-
-  .button--pill.button--medium {
-    border-radius: var(--sl-input-height-medium);
-  }
-
-  .button--pill.button--large {
-    border-radius: var(--sl-input-height-large);
-  }
-
-  /*
    * Circle modifier
    */
 

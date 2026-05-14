@@ -82,7 +82,7 @@ export default class SlAvatar extends ShoelaceElement {
       avatarWithoutImage = html`
         <div part="icon" class="avatar__icon" aria-hidden="true">
           <slot name="icon">
-            <sl-icon name="person-fill" library="system"></sl-icon>
+            <sl-icon name="user" library="system"></sl-icon>
           </slot>
         </div>
       `;

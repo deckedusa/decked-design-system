@@ -76,9 +76,6 @@ export default class SlButton extends ShoelaceElement implements ShoelaceFormCon
   /** Draws an outlined button. */
   @property({ type: Boolean, reflect: true }) outline = false;
 
-  /** Draws a pill-style button with rounded edges. */
-  @property({ type: Boolean, reflect: true }) pill = false;
-
   /**
    * Draws a circular icon button. When this attribute is present, the button expects a single `<sl-icon>` in the
    * default slot.
@@ -279,8 +276,7 @@ export default class SlButton extends ShoelaceElement implements ShoelaceFormCon
           'button--loading': this.loading,
           'button--standard': !this.outline,
           'button--outline': this.outline,
-          'button--pill': this.pill,
-          'button--rtl': this.localize.dir() === 'rtl',
+'button--rtl': this.localize.dir() === 'rtl',
           'button--has-label': this.hasSlotController.test('[default]'),
           'button--has-prefix': this.hasSlotController.test('prefix'),
           'button--has-suffix': this.hasSlotController.test('suffix')

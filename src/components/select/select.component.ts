@@ -911,7 +911,7 @@ export default class SlSelect extends ShoelaceElement implements ShoelaceFormCon
                       tabindex="-1"
                     >
                       <slot name="clear-icon">
-                        <sl-icon name="x-circle-fill" library="system"></sl-icon>
+                        <sl-icon name="circle-x" library="system"></sl-icon>
                       </slot>
                     </button>
                   `

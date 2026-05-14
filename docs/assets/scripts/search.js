@@ -30,7 +30,7 @@
               aria-activedescendant
             >
             <button type="button" class="search__clear-button" aria-label="Clear entry" tabindex="-1" hidden>
-              <sl-icon name="x-circle-fill"></sl-icon>
+              <sl-icon name="circle-x"></sl-icon>
             </button>
           </div>
         </div>

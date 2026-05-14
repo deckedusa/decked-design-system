@@ -164,7 +164,7 @@ export default class SlInput extends ShoelaceElement implements ShoelaceFormCont
   @property() autocapitalize: 'off' | 'none' | 'on' | 'sentences' | 'words' | 'characters';
 
   /** Indicates whether the browser's autocorrect feature is on or off. */
-  @property() autocorrect: 'off' | 'on';
+  @property({ type: Boolean }) autocorrect: boolean;
 
   /**
    * Specifies what permission the browser has to provide assistance in filling out form field values. Refer to
@@ -481,7 +481,7 @@ export default class SlInput extends ShoelaceElement implements ShoelaceFormCont
               .value=${live(this.value)}
               autocapitalize=${ifDefined(this.autocapitalize)}
               autocomplete=${ifDefined(this.autocomplete)}
-              autocorrect=${ifDefined(this.autocorrect)}
+              ?autocorrect=${this.autocorrect}
               ?autofocus=${this.autofocus}
               spellcheck=${this.spellcheck}
               pattern=${ifDefined(this.pattern)}
@@ -507,7 +507,7 @@ export default class SlInput extends ShoelaceElement implements ShoelaceFormCont
                     tabindex="-1"
                   >
                     <slot name="clear-icon">
-                      <sl-icon name="x-circle-fill" library="system"></sl-icon>
+                      <sl-icon name="circle-x" library="system"></sl-icon>
                     </slot>
                   </button>
                 `

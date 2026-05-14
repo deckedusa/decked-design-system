@@ -69,7 +69,7 @@ export default class SlRating extends ShoelaceElement {
    * The function should return a string containing trusted HTML of the symbol to render at the specified value. Works
    * well with `<sl-icon>` elements.
    */
-  @property() getSymbol: (value: number) => string = () => '<sl-icon name="star-fill" library="system"></sl-icon>';
+  @property() getSymbol: (value: number) => string = () => '<sl-icon name="star" library="system"></sl-icon>';
 
   private getValueFromMousePosition(event: MouseEvent) {
     return this.getValueFromXCoordinate(event.clientX);

@@ -106,8 +106,8 @@ export default class SlAnimatedImage extends ShoelaceElement {
               />
 
               <div part="control-box" class="animated-image__control-box">
-                <slot name="play-icon"><sl-icon name="play-fill" library="system"></sl-icon></slot>
-                <slot name="pause-icon"><sl-icon name="pause-fill" library="system"></sl-icon></slot>
+                <slot name="play-icon"><sl-icon name="play" library="system"></sl-icon></slot>
+                <slot name="pause-icon"><sl-icon name="pause" library="system"></sl-icon></slot>
               </div>
             `
           : ''}
