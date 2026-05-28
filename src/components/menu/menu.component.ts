@@ -13,7 +13,7 @@ export interface MenuSelectEventDetail {
 /**
  * @summary Menus provide a list of options for the user to choose from.
  * @documentation https://shoelace.style/components/menu
- * @status unstyled
+ * @status stable
  * @since 2.0
  *
  * @slot - The menu's content, including menu items, menu labels, and dividers.
@@ -155,12 +155,14 @@ export default class SlMenu extends ShoelaceElement {
 
   render() {
     return html`
-      <slot
-        @slotchange=${this.handleSlotChange}
-        @click=${this.handleClick}
-        @keydown=${this.handleKeyDown}
-        @mousedown=${this.handleMouseDown}
-      ></slot>
+      <div class="menu__panel" part="base">
+        <slot
+          @slotchange=${this.handleSlotChange}
+          @click=${this.handleClick}
+          @keydown=${this.handleKeyDown}
+          @mousedown=${this.handleMouseDown}
+        ></slot>
+      </div>
     `;
   }
 }

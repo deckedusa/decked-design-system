@@ -1,6 +1,6 @@
 import { classMap } from 'lit/directives/class-map.js';
 import { getTextContent, HasSlotController } from '../../internal/slot.js';
-import { html } from 'lit';
+import { html, nothing } from 'lit';
 import { LocalizeController } from '../../utilities/localize.js';
 import { property, query } from 'lit/decorators.js';
 import { SubmenuController } from './submenu-controller.js';
@@ -16,7 +16,7 @@ import type { CSSResultGroup } from 'lit';
 /**
  * @summary Menu items provide options for the user to pick from in a menu.
  * @documentation https://shoelace.style/components/menu-item
- * @status unstyled
+ * @status stable
  * @since 2.0
  *
  * @dependency sl-icon
@@ -171,8 +171,8 @@ export default class SlMenuItem extends ShoelaceElement {
           'menu-item--has-submenu': this.isSubmenu(),
           'menu-item--submenu-expanded': isSubmenuExpanded
         })}
-        ?aria-haspopup="${this.isSubmenu()}"
-        ?aria-expanded="${isSubmenuExpanded ? true : false}"
+        aria-haspopup="${this.isSubmenu() ? 'menu' : nothing}"
+        aria-expanded="${isSubmenuExpanded ? 'true' : nothing}"
       >
         <span part="checked-icon" class="menu-item__check">
           <sl-icon name="check" library="system" aria-hidden="true"></sl-icon>

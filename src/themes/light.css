@@ -407,16 +407,16 @@
   --dds-color-background: var(--dds-white);
   --dds-color-text-muted: var(--dds-gray);
 
-  /* Font sizes */
-  --sl-font-size-2x-small: var(--text-sm, 0.625rem); /* 10px */
-  --sl-font-size-x-small: var(--text-sm, 0.75rem); /* 12px */
-  --sl-font-size-small: var(--text-base, 0.875rem); /* 14px */
-  --sl-font-size-medium: var(--text-lg, 1rem); /* 16px */
-  --sl-font-size-large: var(--text-xl, 1.125rem); /* 18px */
-  --sl-font-size-x-large: var(--text-2xl, 1.375rem); /* 22px */
-  --sl-font-size-2x-large: var(--text-3xl, 1.4rem); /* 24px */
-  --sl-font-size-3x-large: var(--text-4xl, 2rem); /* 32px */
-  --sl-font-size-4x-large: var(--text-h1, 3rem); /* 48px */
+  /* Font sizes — override --sl-font-scale (default: 1) to proportionally scale all sizes */
+  --sl-font-size-2x-small: var(--text-2xs, 0.75rem); /* 12px */
+  --sl-font-size-x-small: var(--text-xs, 0.75rem); /* 12px */
+  --sl-font-size-small: var(--text-sm, 0.875rem); /* 14px */
+  --sl-font-size-medium: var(--text-base, 1rem); /* 16px */
+  --sl-font-size-large: var(--text-lg, 1.125rem); /* 18px */
+  --sl-font-size-x-large: var(--text-xl, 1.25rem); /* 20px */
+  --sl-font-size-2x-large: var(--text-2xl, 1.5rem); /* 24px */
+  --sl-font-size-3x-large: var(--text-3xl, 1.875rem); /* 30px */
+  --sl-font-size-4x-large: var(--text-4xl, 2.25rem); /* 36px */
 
   /* Font weights */
   --sl-font-weight-light: 300;

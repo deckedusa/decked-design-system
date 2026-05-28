@@ -37,12 +37,12 @@ export default css`
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: var(--toggle-size);
-    height: var(--toggle-size);
+    width: var(--sl-toggle-size-small);
+    height: var(--sl-toggle-size-small);
     border: solid var(--sl-input-border-width) var(--sl-input-border-color);
     border-radius: 2px;
     background-color: var(--sl-input-background-color);
-    color: var(--sl-color-neutral-0);
+    color: var(--dds-black);
     transition:
       var(--sl-transition-fast) border-color,
       var(--sl-transition-fast) background-color,
@@ -61,8 +61,8 @@ export default css`
   .checkbox__checked-icon,
   .checkbox__indeterminate-icon {
     display: inline-flex;
-    width: var(--toggle-size);
-    height: var(--toggle-size);
+    width: var(--sl-toggle-size-small);
+    height: var(--sl-toggle-size-small);
   }
 
   /* Hover */
@@ -80,15 +80,15 @@ export default css`
   /* Checked/indeterminate */
   .checkbox--checked .checkbox__control,
   .checkbox--indeterminate .checkbox__control {
-    border-color: var(--sl-color-primary-600);
-    background-color: var(--sl-color-primary-600);
+    border-color: var(--dds-horizon-blue);
+    background-color: var(--dds-horizon-blue);
   }
 
   /* Checked/indeterminate + hover */
   .checkbox.checkbox--checked:not(.checkbox--disabled) .checkbox__control:hover,
   .checkbox.checkbox--indeterminate:not(.checkbox--disabled) .checkbox__control:hover {
-    border-color: var(--sl-color-primary-500);
-    background-color: var(--sl-color-primary-500);
+    border-color: var(--dds-horizon-blue);
+    background-color: var(--dds-horizon-blue);
   }
 
   /* Checked/indeterminate + focus */

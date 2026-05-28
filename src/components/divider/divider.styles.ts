@@ -9,14 +9,25 @@ export default css`
 
   :host(:not([vertical])) {
     display: block;
-    border-top: solid var(--width) var(--color);
     margin: var(--spacing) 0;
   }
 
   :host([vertical]) {
     display: inline-block;
     height: 100%;
-    border-left: solid var(--width) var(--color);
     margin: 0 var(--spacing);
+  }
+
+  .divider__line {
+    display: block;
+  }
+
+  :host(:not([vertical])) .divider__line {
+    border-top: solid var(--width) var(--color);
+  }
+
+  :host([vertical]) .divider__line {
+    height: 100%;
+    border-left: solid var(--width) var(--color);
   }
 `;

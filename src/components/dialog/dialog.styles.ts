@@ -57,9 +57,12 @@ export default css`
 
   .dialog__title {
     flex: 1 1 auto;
-    font: inherit;
+    font-family: var(--sl-font-header);
     font-size: var(--sl-font-size-large);
+    font-weight: var(--sl-font-weight-semibold);
     line-height: var(--sl-line-height-dense);
+    text-transform: uppercase;
+    letter-spacing: var(--sl-letter-spacing-normal);
     padding: var(--header-spacing);
     margin: 0;
   }

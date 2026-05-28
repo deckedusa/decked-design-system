@@ -37,3 +37,25 @@
   font-display: fallback;
   src: url('https://decked.com/cdn/shop/t/434/assets/static.gotham-bookitalic-webfont.woff') format('woff');
 }
+
+/* Heading utility classes */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--sl-font-header);
+  font-weight: var(--sl-font-weight-semibold);
+  line-height: var(--sl-line-height-dense);
+  letter-spacing: var(--sl-letter-spacing-normal);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.h1 { font-size: var(--sl-font-size-4x-large); }
+.h2 { font-size: var(--sl-font-size-3x-large); }
+.h3 { font-size: var(--sl-font-size-2x-large); }
+.h4 { font-size: var(--sl-font-size-x-large); }
+.h5 { font-size: var(--sl-font-size-large); }
+.h6 { font-size: var(--sl-font-size-medium); }

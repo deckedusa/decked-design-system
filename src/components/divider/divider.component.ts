@@ -1,3 +1,4 @@
+import { html } from 'lit';
 import { property } from 'lit/decorators.js';
 import { watch } from '../../internal/watch.js';
 import componentStyles from '../../styles/component.styles.js';
@@ -29,5 +30,9 @@ export default class SlDivider extends ShoelaceElement {
   @watch('vertical')
   handleVerticalChange() {
     this.setAttribute('aria-orientation', this.vertical ? 'vertical' : 'horizontal');
+  }
+
+  render() {
+    return html`<span class="divider__line" part="base"></span>`;
   }
 }
