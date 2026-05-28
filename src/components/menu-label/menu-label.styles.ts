@@ -12,7 +12,7 @@ export default css`
     line-height: var(--sl-line-height-normal);
     letter-spacing: var(--sl-letter-spacing-normal);
     text-transform: uppercase;
-padding: var(--sl-spacing-2x-small) var(--sl-spacing-x-large);
+    padding: var(--sl-spacing-2x-small) var(--sl-spacing-x-large);
     user-select: none;
     -webkit-user-select: none;
   }
